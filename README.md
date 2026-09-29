@@ -18,6 +18,8 @@ Publicado em <https://labmet-ufopa.github.io/> pelo GitHub Pages, a partir da br
 
 Os estilos ficam em `assets/css/style.css` e as imagens em `assets/img/`.
 
+Os links para o CSS e os scripts terminam com `?v=` e uma data (por exemplo, `style.css?v=20260929c`). Ao alterar `style.css` ou um arquivo em `assets/js/`, troque esse valor em todas as páginas, inclusive as de `en/`. Assim os navegadores baixam a versão nova, em vez de usar a antiga guardada em cache junto com o HTML novo.
+
 ## Versão em inglês
 
 O português é o idioma principal. A versão em inglês fica em `en/`, com os mesmos nomes de arquivo (`en/index.html`, `en/carbonara.html` etc.). O seletor com as bandeiras, no canto superior direito, leva à mesma página no outro idioma.
