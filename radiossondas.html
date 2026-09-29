@@ -14,7 +14,7 @@
   <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -30,10 +30,10 @@
   <header class="cabecalho">
     <div class="container">
       <a class="marca" href="index.html">
-        <img src="assets/img/logo.svg" alt="" width="52" height="52">
+        <img src="assets/img/logo.svg" alt="" width="44" height="44">
         <span>
           <span class="marca-nome">LabMet</span>
-          <span class="marca-desc">Laboratório de Instrumentação Meteorológica Multidisciplinar</span>
+          <span class="marca-desc">Instrumentação Meteorológica · Ufopa</span>
         </span>
       </a>
       <nav class="menu" aria-label="Principal">
@@ -49,16 +49,50 @@
   </header>
 
   <main id="conteudo">
-    <div class="container principal">
-      <p class="migalha"><a href="index.html">Início</a> / Projetos</p>
-      <div class="colunas">
-        <div>
-          <h1>Rastreamento de radiossondas</h1>
-          <p class="abertura">Acompanhamos as radiossondas lançadas em Santarém do momento em que sobem até o ponto em que caem.</p>
+    <section class="hero hero-interno">
+      <img src="assets/img/fotos/esa-floresta-secundaria.jpg" alt="Paisagem de floresta e áreas abertas vista do alto, sob céu enevoado">
+      <div class="container">
+        <p class="migalha"><a href="index.html">Início</a> / Projetos</p>
+        <h1>Rastreamento de radiossondas</h1>
+        <p class="hero-texto">Acompanhamos as radiossondas lançadas em Santarém do momento em que sobem até o ponto em que caem.</p>
+      </div>
+      <p class="credito">Foto: ESA, projeto CarbonARA</p>
+    </section>
 
+    <section class="secao">
+      <div class="container colunas">
+        <div>
+          <p class="sobretitulo">O projeto</p>
+          <h2>O perfil da atmosfera, na subida e na descida</h2>
           <p>Uma radiossonda é um pequeno conjunto de sensores preso a um balão. Enquanto sobe, mede temperatura, umidade e pressão e transmite os dados por rádio, junto com a posição obtida por GPS, de onde se calcula o vento. Quando o balão estoura, a sonda desce e continua transmitindo até perto do solo.</p>
           <p>Conhecer o perfil vertical da atmosfera é essencial para que as previsões do tempo sejam precisas e confiáveis. Em Santarém, as sondagens de rotina são lançadas do aeroporto duas vezes por dia, às 9h e às 21h no horário local.</p>
           <p>O laboratório opera um sistema de aquisição que recebe o sinal das sondas por telemetria durante todo o voo. Isso dá acesso aos dados em alta resolução, inclusive os da descida, que normalmente são descartados, e permite acompanhar a trajetória da sonda para localizá-la e recuperá-la depois da queda.</p>
+
+          <figure class="figura-svg">
+        <svg viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
+          <title id="fig-t">Trajetória de uma radiossonda</title>
+          <desc id="fig-d">A sonda sobe a partir do ponto de lançamento enquanto é levada pelo vento, o balão estoura no ponto mais alto e a sonda desce até o ponto de queda, distante do lançamento. Uma estação receptora no solo recebe o sinal durante todo o percurso.</desc>
+          <line x1="70" y1="300" x2="670" y2="300" stroke="#1d252c" stroke-width="1.5"/>
+          <line x1="70" y1="300" x2="70" y2="30" stroke="#1d252c" stroke-width="1.5"/>
+          <text class="eixo" x="370" y="340" text-anchor="middle">Distância do ponto de lançamento</text>
+          <text class="eixo" x="28" y="165" text-anchor="middle" transform="rotate(-90 28 165)">Altitude</text>
+          <path d="M110 300 C 170 210, 260 120, 400 60" fill="none" stroke="#0a6aa8" stroke-width="3"/>
+          <path d="M400 60 C 470 110, 540 200, 600 300" fill="none" stroke="#1f7a4d" stroke-width="3" stroke-dasharray="7 6"/>
+          <circle cx="110" cy="300" r="6" fill="#0a6aa8"/>
+          <circle cx="400" cy="60" r="6" fill="#1d252c"/>
+          <circle cx="600" cy="300" r="6" fill="#1f7a4d"/>
+          <text x="110" y="322" text-anchor="middle">Lançamento</text>
+          <text x="414" y="50">Estouro do balão</text>
+          <text x="600" y="322" text-anchor="middle">Queda</text>
+          <text x="205" y="150" text-anchor="end">Subida</text>
+          <text x="545" y="150">Descida</text>
+          <rect x="296" y="286" width="14" height="14" fill="#1d252c"/>
+          <line x1="303" y1="286" x2="303" y2="262" stroke="#1d252c" stroke-width="2"/>
+          <line x1="303" y1="262" x2="400" y2="60" stroke="#5a6772" stroke-width="1" stroke-dasharray="2 5"/>
+          <text x="318" y="282">Estação receptora</text>
+        </svg>
+            <figcaption>Esquema do voo de uma radiossonda. O sinal é recebido em solo na subida e na descida. O esquema não está em escala.</figcaption>
+          </figure>
         </div>
 
         <aside class="lateral">
@@ -76,71 +110,54 @@
           </ul>
         </aside>
       </div>
+    </section>
 
-      <figure class="figura-svg">
-        <svg viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
-          <title id="fig-t">Trajetória de uma radiossonda</title>
-          <desc id="fig-d">A sonda sobe a partir do ponto de lançamento enquanto é levada pelo vento, o balão estoura no ponto mais alto e a sonda desce até o ponto de queda, distante do lançamento. Uma estação receptora no solo recebe o sinal durante todo o percurso.</desc>
-          <line x1="70" y1="300" x2="670" y2="300" stroke="#222a30" stroke-width="1.5"/>
-          <line x1="70" y1="300" x2="70" y2="30" stroke="#222a30" stroke-width="1.5"/>
-          <text class="eixo" x="370" y="340" text-anchor="middle">Distância do ponto de lançamento</text>
-          <text class="eixo" x="28" y="165" text-anchor="middle" transform="rotate(-90 28 165)">Altitude</text>
-          <path d="M110 300 C 170 210, 260 120, 400 60" fill="none" stroke="#0b5a8a" stroke-width="2.5"/>
-          <path d="M400 60 C 470 110, 540 200, 600 300" fill="none" stroke="#2f6b3a" stroke-width="2.5" stroke-dasharray="7 6"/>
-          <circle cx="110" cy="300" r="5" fill="#0b5a8a"/>
-          <circle cx="400" cy="60" r="5" fill="#222a30"/>
-          <circle cx="600" cy="300" r="5" fill="#2f6b3a"/>
-          <text x="110" y="322" text-anchor="middle">Lançamento</text>
-          <text x="412" y="50">Estouro do balão</text>
-          <text x="600" y="322" text-anchor="middle">Queda</text>
-          <text x="205" y="150" fill="#0b5a8a" text-anchor="end">Subida</text>
-          <text x="545" y="150">Descida</text>
-          <rect x="296" y="286" width="14" height="14" fill="#222a30"/>
-          <line x1="303" y1="286" x2="303" y2="262" stroke="#222a30" stroke-width="2"/>
-          <line x1="303" y1="262" x2="400" y2="60" stroke="#55616b" stroke-width="1" stroke-dasharray="2 5"/>
-          <text x="318" y="282">Estação receptora</text>
-        </svg>
-        <figcaption>Figura 1. Esquema do voo de uma radiossonda. O sinal é recebido em solo na subida e na descida. O esquema não está em escala.</figcaption>
-      </figure>
+    <section class="secao secao-suave">
+      <div class="container">
+        <div class="texto">
+          <p class="sobretitulo">Objetivos</p>
+          <h2>O que queremos responder</h2>
+          <p>O objetivo geral é validar os perfis de radiossondagem observados em alta resolução, em especial os de descida, e caracterizar os padrões de vento em baixa, média e alta altitude. Os objetivos específicos são:</p>
+          <ul>
+            <li>comparar em detalhe os perfis atmosféricos das fases de subida e de descida;</li>
+            <li>analisar o deslocamento horizontal das radiossondas durante o percurso;</li>
+            <li>comparar os dados em alta resolução com a interpolação feita a partir dos níveis significativos, que é a forma como as sondagens costumam ser divulgadas.</li>
+          </ul>
 
-      <div class="texto">
-        <h2>Objetivos</h2>
-        <p>O objetivo geral é validar os perfis de radiossondagem observados em alta resolução, em especial os de descida, e caracterizar os padrões de vento em baixa, média e alta altitude. Os objetivos específicos são:</p>
-        <ul>
-          <li>comparar em detalhe os perfis atmosféricos das fases de subida e de descida;</li>
-          <li>analisar o deslocamento horizontal das radiossondas durante o percurso;</li>
-          <li>comparar os dados em alta resolução com a interpolação feita a partir dos níveis significativos, que é a forma como as sondagens costumam ser divulgadas.</li>
-        </ul>
+          <h2>Por que recuperar as sondas</h2>
+          <p>As radiossondas comerciais são feitas para um único uso e, em geral, ficam onde caem. Como o rastreamento indica a posição da sonda até os últimos instantes do voo, é possível ir buscá-la. A sonda recuperada deixa de ser lixo eletrônico na floresta e vira material de estudo e de aula: os estudantes podem abrir o equipamento, entender os sensores e testar o seu reaproveitamento.</p>
 
-        <h2>Por que recuperar as sondas</h2>
-        <p>As radiossondas comerciais são feitas para um único uso e, em geral, ficam onde caem. Como o rastreamento indica a posição da sonda até os últimos instantes do voo, é possível ir buscá-la. A sonda recuperada deixa de ser lixo eletrônico na floresta e vira material de estudo e de aula: os estudantes podem abrir o equipamento, entender os sensores e testar o seu reaproveitamento.</p>
+          <h2>Ligação com outros projetos</h2>
+          <p>Os perfis verticais ajudam a interpretar as medidas de torre e de aeronave do <a href="carbonara.html">CarbonARA</a>, porque mostram a altura da camada de ar próxima à superfície onde os gases emitidos pela floresta e pelas queimadas se misturam. Também servem para avaliar modelos de previsão numérica do tempo na região.</p>
 
-        <h2>Ligação com outros projetos</h2>
-        <p>Os perfis verticais ajudam a interpretar as medidas de torre e de aeronave do <a href="carbonara.html">CarbonARA</a>, porque mostram a altura da camada de ar próxima à superfície onde os gases emitidos pela floresta e pelas queimadas se misturam. Também servem para avaliar modelos de previsão numérica do tempo na região.</p>
-
-        <h2>Fonte</h2>
-        <p>Os dados do projeto estão no <a href="https://sigaa.ufopa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf">portal público de projetos de pesquisa do SIGAA/Ufopa</a>, sob o título "Análise dos perfis verticais atmosféricos e rastreamento de radiossondagens em alta resolução no Oeste do Pará".</p>
+          <h2>Fonte</h2>
+          <p>Os dados do projeto estão no <a href="https://sigaa.ufopa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf">portal público de projetos de pesquisa do SIGAA/Ufopa</a>, sob o título "Análise dos perfis verticais atmosféricos e rastreamento de radiossondagens em alta resolução no Oeste do Pará".</p>
+        </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <footer class="rodape">
     <div class="container">
       <div>
-        <p><strong>LabMet UFOPA</strong></p>
+        <div class="marca-rodape"><img src="assets/img/logo.svg" alt="" width="40" height="40"><span>LabMet</span></div>
         <p>Laboratório de Instrumentação Meteorológica Multidisciplinar</p>
-        <p>Instituto de Engenharia e Geociências</p>
+        <p>Instituto de Engenharia e Geociências, Ufopa</p>
       </div>
       <div>
         <p><strong>Endereço</strong></p>
         <p>Núcleo Tecnológico de Laboratórios (NTL), sala 205</p>
-        <p>Ufopa, Unidade Tapajós, Santarém, Pará</p>
+        <p>Unidade Tapajós, Santarém, Pará</p>
       </div>
       <div>
         <p><strong>Links</strong></p>
         <p><a href="https://github.com/labmet-ufopa">GitHub do laboratório</a></p>
         <p><a href="https://ieg.ufopa.edu.br/ieg/graduacao/bacharelado-em-ciencias-atmosfericas/">Bacharelado em Ciências Atmosféricas</a></p>
+        <p><a href="https://climate.esa.int/en/supporting-the-paris-agreement/CarbonARA/">CarbonARA na ESA</a></p>
       </div>
+    </div>
+    <div class="rodape-fim">
+      <div class="container">Universidade Federal do Oeste do Pará. As fotos têm o crédito indicado em cada página.</div>
     </div>
   </footer>
 </body>

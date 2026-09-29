@@ -32,7 +32,10 @@ Para incluir uma notícia, copie um item `<li>` da lista `noticias` em `index.ht
 
 ## Fotos
 
-As fotos em `assets/img/fotos/` são da Assessoria de Comunicação da Ufopa e foram publicadas nas notícias do portal da universidade. O crédito aparece na legenda de cada uma.
+As imagens ficam em `assets/img/fotos/` e o crédito aparece na legenda de cada uma.
+
+- Arquivos sem prefixo: Assessoria de Comunicação da Ufopa, publicados nas notícias do portal da universidade.
+- Arquivos com prefixo `esa-`: página do projeto CarbonARA no portal de clima da Agência Espacial Europeia. Os termos de uso do portal pedem autorização por escrito para reprodução, então o uso aqui deve ser confirmado com a coordenação do projeto.
 
 ## Fontes das informações
 
