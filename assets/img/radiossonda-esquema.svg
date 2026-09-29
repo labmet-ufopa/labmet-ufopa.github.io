@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
+          <style>text{font-family:"Source Sans 3","Helvetica Neue",Arial,sans-serif;font-size:14px;fill:#222a30}.eixo{fill:#55616b;font-size:13px}</style><rect width="700" height="360" fill="#fff"/><title id="fig-t">Trajetória de uma radiossonda</title>
+          <desc id="fig-d">A sonda sobe a partir do ponto de lançamento enquanto é levada pelo vento, o balão estoura no ponto mais alto e a sonda desce até o ponto de queda, distante do lançamento. Uma estação receptora no solo recebe o sinal durante todo o percurso.</desc>
+          <line x1="70" y1="300" x2="670" y2="300" stroke="#222a30" stroke-width="1.5"/>
+          <line x1="70" y1="300" x2="70" y2="30" stroke="#222a30" stroke-width="1.5"/>
+          <text class="eixo" x="370" y="340" text-anchor="middle">Distância do ponto de lançamento</text>
+          <text class="eixo" x="28" y="165" text-anchor="middle" transform="rotate(-90 28 165)">Altitude</text>
+          <path d="M110 300 C 170 210, 260 120, 400 60" fill="none" stroke="#0b5a8a" stroke-width="2.5"/>
+          <path d="M400 60 C 470 110, 540 200, 600 300" fill="none" stroke="#2f6b3a" stroke-width="2.5" stroke-dasharray="7 6"/>
+          <circle cx="110" cy="300" r="5" fill="#0b5a8a"/>
+          <circle cx="400" cy="60" r="5" fill="#222a30"/>
+          <circle cx="600" cy="300" r="5" fill="#2f6b3a"/>
+          <text x="110" y="322" text-anchor="middle">Lançamento</text>
+          <text x="412" y="50">Estouro do balão</text>
+          <text x="600" y="322" text-anchor="middle">Queda</text>
+          <text x="205" y="150" fill="#0b5a8a" text-anchor="end">Subida</text>
+          <text x="545" y="150">Descida</text>
+          <rect x="296" y="286" width="14" height="14" fill="#222a30"/>
+          <line x1="303" y1="286" x2="303" y2="262" stroke="#222a30" stroke-width="2"/>
+          <line x1="303" y1="262" x2="400" y2="60" stroke="#55616b" stroke-width="1" stroke-dasharray="2 5"/>
+          <text x="318" y="282">Estação receptora</text>
+        </svg>

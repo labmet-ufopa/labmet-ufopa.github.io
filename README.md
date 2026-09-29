@@ -4,19 +4,21 @@ Site do Laboratório de Instrumentação Meteorológica Multidisciplinar (LabMet
 
 Publicado em <https://labmet-ufopa.github.io/> pelo GitHub Pages, a partir da branch `main`.
 
-## Estrutura
+## Páginas
 
-| Caminho | Conteúdo |
+| Arquivo | Conteúdo |
 | --- | --- |
-| `index.html` | Página única, com todas as seções |
-| `assets/css/style.css` | Estilos, com tema claro e escuro |
-| `assets/js/main.js` | Menu em telas pequenas |
-| `assets/img/logo.svg` | Símbolo do laboratório (também usado como favicon) |
-| `assets/img/logo-horizontal.svg` | Símbolo com o nome, para documentos e apresentações |
+| `index.html` | Apresentação, projetos em andamento e notícias |
+| `carbonara.html` | Projeto CarbonARA-Brazil |
+| `radiossondas.html` | Projeto de rastreamento de radiossondas |
+| `equipe.html` | Coordenação, docentes colaboradores e estudantes |
+| `contato.html` | Endereço e contatos |
+
+Os estilos ficam em `assets/css/style.css` e as imagens em `assets/img/`.
 
 ## Como editar
 
-O site é HTML estático, sem etapa de build. Edite os arquivos, faça o commit na `main` e a página é atualizada em cerca de um minuto.
+O site é HTML estático, sem etapa de build. O cabeçalho e o rodapé se repetem em cada página, então uma mudança no menu precisa ser feita nos cinco arquivos.
 
 Para ver localmente:
 
@@ -26,8 +28,15 @@ python3 -m http.server 8000
 
 Depois abra <http://localhost:8000>.
 
+Para incluir uma notícia, copie um item `<li>` da lista `noticias` em `index.html` e troque a data, o link e o título.
+
+## Fotos
+
+As fotos em `assets/img/fotos/` são da Assessoria de Comunicação da Ufopa e foram publicadas nas notícias do portal da universidade. O crédito aparece na legenda de cada uma.
+
 ## Fontes das informações
 
 - [Relação de laboratórios do IEG](https://ieg.ufopa.edu.br/ieg/laboratorios-2/)
-- [Curso de Ciências Atmosféricas no SIGAA](https://sigaa.ufopa.edu.br/sigaa/public/curso/portal.jsf?lc=pt_BR&id=284585)
-- [Torre micrometeorológica na Fazenda Experimental](https://www.ufopa.edu.br/ufopa/comunica/noticias/torre-micrometeorologica-e-instalada-na-fazenda-experimental-da-ufopa/)
+- [Projetos de pesquisa no SIGAA/Ufopa](https://sigaa.ufopa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf), projeto PIIE970-2023
+- [CarbonARA na Agência Espacial Europeia](https://climate.esa.int/en/supporting-the-paris-agreement/CarbonARA/)
+- [Notícias da Ufopa](https://www.ufopa.edu.br/ufopa/comunica/noticias/) sobre o CarbonARA-Brazil

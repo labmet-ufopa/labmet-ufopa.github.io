@@ -3,318 +3,136 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LabMet UFOPA — Laboratório de Instrumentação Meteorológica Multidisciplinar</title>
-  <meta name="description" content="Laboratório de Instrumentação Meteorológica Multidisciplinar da Universidade Federal do Oeste do Pará (Ufopa), em Santarém. Medições da atmosfera na Amazônia.">
-  <meta property="og:title" content="LabMet UFOPA">
-  <meta property="og:description" content="Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa, em Santarém (PA).">
+  <title>LabMet UFOPA | Laboratório de Instrumentação Meteorológica Multidisciplinar</title>
+  <meta name="description" content="Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa, em Santarém. Medidas de gases de efeito estufa, fluxos e perfis da atmosfera na Amazônia.">
+  <meta property="og:title" content="LabMet UFOPA | Laboratório de Instrumentação Meteorológica Multidisciplinar">
+  <meta property="og:description" content="Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa, em Santarém. Medidas de gases de efeito estufa, fluxos e perfis da atmosfera na Amazônia.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://labmet-ufopa.github.io/">
-  <meta property="og:image" content="https://labmet-ufopa.github.io/assets/img/logo.png">
+  <meta property="og:image" content="https://labmet-ufopa.github.io/assets/img/fotos/twin-otter-hangar.jpg">
   <meta property="og:locale" content="pt_BR">
   <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
 
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="#topo" aria-label="LabMet UFOPA, início">
-        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+  <div class="barra-ufopa">
+    <div class="container">
+      <a href="https://www.ufopa.edu.br/">Universidade Federal do Oeste do Pará</a>
+      <a href="https://ieg.ufopa.edu.br/">Instituto de Engenharia e Geociências</a>
+    </div>
+  </div>
+
+  <header class="cabecalho">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="52" height="52">
         <span>
-          <span class="brand-name">LabMet</span>
-          <span class="brand-sub">UFOPA · SANTARÉM</span>
+          <span class="marca-nome">LabMet</span>
+          <span class="marca-desc">Laboratório de Instrumentação Meteorológica Multidisciplinar</span>
         </span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
-      <nav class="site-nav" id="menu" data-open="false" aria-label="Seções">
+      <nav class="menu" aria-label="Principal">
         <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#atuacao">Atuação</a></li>
-          <li><a href="#carbonara">CarbonARA</a></li>
-          <li><a href="#equipe">Equipe</a></li>
-          <li><a href="#rede">Rede no IEG</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="carbonara.html">CarbonARA</a></li>
+          <li><a href="radiossondas.html">Radiossondas</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
-    <section class="hero" id="topo">
-      <div class="wrap">
+    <figure class="destaque">
+      <img src="assets/img/fotos/twin-otter-hangar.jpg" alt="Avião bimotor vermelho do British Antarctic Survey estacionado em Santarém" width="1280" height="720">
+    </figure>
+    <div class="container">
+      <figcaption>Aeronave de pesquisa Twin Otter, do British Antarctic Survey, em Santarém antes do primeiro voo da campanha CarbonARA, em 26 de setembro de 2025. Foto: Lenne Santos, Ascom/Ufopa.</figcaption>
+    </div>
+
+    <div class="container principal">
+      <div class="colunas">
         <div>
-          <p class="eyebrow">Ufopa · Instituto de Engenharia e Geociências</p>
-          <h1>Instrumentos para medir a atmosfera da <em>Amazônia</em></h1>
-          <p class="lede">O LabMet é o Laboratório de Instrumentação Meteorológica Multidisciplinar da Universidade Federal do Oeste do Pará. Em Santarém, apoiamos o ensino e a pesquisa em Ciências Atmosféricas com medições de tempo, clima e trocas entre a superfície e o ar.</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="#sobre">Conheça o laboratório</a>
-            <a class="btn" href="https://github.com/labmet-ufopa">Códigos no GitHub</a>
-          </div>
+          <h1>Medimos a atmosfera no Oeste do Pará</h1>
+          <p class="abertura">O LabMet é o laboratório de instrumentação meteorológica do curso de Ciências Atmosféricas da Ufopa, em Santarém.</p>
+          <p>Instalamos e operamos instrumentos em torres, no solo e em balões para acompanhar o que a floresta e a atmosfera trocam entre si: gás carbônico, metano, vapor d'água e energia. Os dados servem a pesquisas sobre o clima da Amazônia e à formação de meteorologistas na região.</p>
+          <p>O laboratório é coordenado pelo professor Julio Tota e funciona no Núcleo Tecnológico de Laboratórios (NTL), na Unidade Tapajós. As medições de campo acontecem na Fazenda Experimental da Ufopa e na Floresta Nacional do Tapajós.</p>
         </div>
-
-        <figure class="tower">
-          <svg viewBox="0 0 460 460" role="img" aria-labelledby="torre-titulo torre-desc">
-            <title id="torre-titulo">Esquema de uma torre micrometeorológica de 40 metros</title>
-            <desc id="torre-desc">Torre treliçada com escala de altura de 0 a 40 metros e sensores em quatro níveis: vento e turbulência no topo, radiação solar, gás carbônico e vapor d'água, temperatura e umidade.</desc>
-
-            <!-- escala de altura: y = 420 - 9 × h -->
-            <line x1="70" y1="60" x2="70" y2="420" stroke="#2a5563" stroke-width="1.5"/>
-            <g stroke="#a3c0c8" stroke-width="1.5">
-              <line x1="62" y1="420" x2="70" y2="420"/>
-              <line x1="62" y1="330" x2="70" y2="330"/>
-              <line x1="62" y1="240" x2="70" y2="240"/>
-              <line x1="62" y1="150" x2="70" y2="150"/>
-              <line x1="62" y1="60" x2="70" y2="60"/>
-            </g>
-            <g class="t-axis" text-anchor="end">
-              <text x="54" y="424">0 m</text>
-              <text x="54" y="334">10</text>
-              <text x="54" y="244">20</text>
-              <text x="54" y="154">30</text>
-              <text x="54" y="64">40</text>
-            </g>
-            <g stroke="#2a5563" stroke-width="1" stroke-dasharray="2 5">
-              <line x1="70" y1="330" x2="170" y2="330"/>
-              <line x1="70" y1="240" x2="170" y2="240"/>
-              <line x1="70" y1="150" x2="170" y2="150"/>
-              <line x1="70" y1="60" x2="170" y2="60"/>
-            </g>
-
-            <!-- solo e vegetação -->
-            <g fill="#14505f">
-              <ellipse cx="120" cy="420" rx="34" ry="20"/>
-              <ellipse cx="258" cy="420" rx="46" ry="28"/>
-              <ellipse cx="330" cy="420" rx="38" ry="18"/>
-              <ellipse cx="400" cy="420" rx="44" ry="24"/>
-            </g>
-            <rect x="70" y="420" width="380" height="40" fill="#0b2e3a"/>
-            <line x1="70" y1="420" x2="450" y2="420" stroke="#a3c0c8" stroke-width="1.5"/>
-
-            <!-- torre -->
-            <g fill="none" stroke="#eaf4f6" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="170" y1="420" x2="170" y2="60" stroke-width="2.5"/>
-              <line x1="200" y1="420" x2="200" y2="60" stroke-width="2.5"/>
-              <path d="M170 420 L200 390 L170 360 L200 330 L170 300 L200 270 L170 240 L200 210 L170 180 L200 150 L170 120 L200 90 L170 60 L200 60" stroke-width="1.5"/>
-              <line x1="185" y1="60" x2="185" y2="34" stroke-width="2.5"/>
-            </g>
-
-            <!-- braços e sensores -->
-            <g stroke="#eaf4f6" stroke-width="2" stroke-linecap="round">
-              <line x1="200" y1="150" x2="252" y2="150"/>
-              <line x1="200" y1="240" x2="252" y2="240"/>
-              <line x1="200" y1="330" x2="252" y2="330"/>
-            </g>
-            <g fill="#f2bd3a">
-              <circle cx="256" cy="150" r="6"/>
-              <circle cx="256" cy="240" r="6"/>
-              <circle cx="256" cy="330" r="6"/>
-            </g>
-
-            <!-- anemômetro de conchas -->
-            <g class="cups">
-              <g stroke="#eaf4f6" stroke-width="2" stroke-linecap="round">
-                <line x1="185" y1="34" x2="185" y2="12"/>
-                <line x1="185" y1="34" x2="204" y2="45"/>
-                <line x1="185" y1="34" x2="166" y2="45"/>
-              </g>
-              <g fill="#f2bd3a">
-                <circle cx="185" cy="12" r="5"/>
-                <circle cx="204" cy="45" r="5"/>
-                <circle cx="166" cy="45" r="5"/>
-              </g>
-            </g>
-
-            <g class="t-label">
-              <text x="224" y="38">Vento e turbulência</text>
-              <text x="272" y="154">Radiação solar</text>
-              <text x="272" y="244">CO₂ e vapor d'água</text>
-              <text x="272" y="334">Temperatura e umidade</text>
-            </g>
-          </svg>
-          <figcaption>Esquema ilustrativo de uma torre micrometeorológica de 40 m, como a instalada na Fazenda Experimental da Ufopa. A posição dos sensores é representativa.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section" id="sobre">
-      <div class="wrap split">
-        <div>
-          <p class="kicker">Sobre</p>
-          <h2>Um laboratório de medição a serviço da Amazônia</h2>
-          <div class="prose">
-            <p>O Laboratório de Instrumentação Meteorológica Multidisciplinar faz parte do Instituto de Engenharia e Geociências (IEG) da Ufopa e está ligado ao Bacharelado em Ciências Atmosféricas. Fica no Núcleo Tecnológico de Laboratórios (NTL), na Unidade Tapajós, em Santarém.</p>
-            <p>O Oeste do Pará passa por urbanização e expansão de mineração, agricultura, transportes e energia. A região também é estratégica para estudos de mudanças climáticas, ciclos biogeoquímicos e uso da terra. Entender essas transformações depende de dados confiáveis, e dados confiáveis dependem de instrumentos bem instalados, calibrados e mantidos.</p>
-            <p>É nesse ponto que o laboratório atua: na instalação e operação de instrumentos e redes de observação, na formação de estudantes para o trabalho de campo e no apoio a projetos de pesquisa de diferentes áreas que precisam de medidas atmosféricas.</p>
-          </div>
-        </div>
-
-        <dl class="ficha" aria-label="Ficha do laboratório">
-          <div><dt>Nome</dt><dd>Laboratório de Instrumentação Meteorológica Multidisciplinar</dd></div>
-          <div><dt>Coordenação</dt><dd>Prof. Dr. Julio Tota da Silva</dd></div>
-          <div><dt>Unidade</dt><dd>Instituto de Engenharia e Geociências (IEG)</dd></div>
-          <div><dt>Programa</dt><dd>Ciências da Terra (PCdT)</dd></div>
-          <div><dt>Local</dt><dd>NTL, bloco 05, sala 205<br>Unidade Tapajós, Santarém (PA)</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="atuacao">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="kicker">Atuação</p>
-          <h2>Do sensor ao dado</h2>
-          <p>As frentes de trabalho acompanham o que um meteorologista precisa dominar para observar a atmosfera com qualidade.</p>
-        </div>
-        <ul class="frentes">
-          <li>
-            <span class="var">T · UR · p · vento · chuva</span>
-            <h3>Instrumentação meteorológica</h3>
-            <p>Instalação, operação e manutenção de sensores e estações que medem temperatura, umidade, pressão, vento, radiação e precipitação.</p>
-          </li>
-          <li>
-            <span class="var">fluxos de CO₂ · H₂O · energia</span>
-            <h3>Micrometeorologia</h3>
-            <p>Medidas em torre das trocas de energia, água e carbono entre a vegetação, o solo e a atmosfera.</p>
-          </li>
-          <li>
-            <span class="var">gases de efeito estufa · qualidade do ar</span>
-            <h3>Composição da atmosfera</h3>
-            <p>Monitoramento de gases e da qualidade do ar no Baixo Amazonas, em conjunto com os parceiros do Observatório Atmosférico da Amazônia.</p>
-          </li>
-          <li>
-            <span class="var">ensino · pesquisa · extensão</span>
-            <h3>Formação de pessoas</h3>
-            <p>Aulas práticas, iniciação científica e trabalhos de conclusão para estudantes de Ciências Atmosféricas e de cursos vizinhos.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="carbonara">
-      <div class="wrap split">
-        <div>
-          <p class="kicker">Projeto em destaque</p>
-          <h2>CarbonARA-Brazil: o carbono da floresta visto do solo, do ar e do espaço</h2>
-          <div class="prose">
-            <p>Uma torre micrometeorológica de 40 metros foi instalada na Fazenda Experimental da Ufopa, no km 37 da rodovia Curuá-Una (PA-370). A montagem foi conduzida pelo professor Julio Tota, coordenador local do projeto.</p>
-            <p>O CarbonARA-Brazil investiga os fluxos de carbono na Amazônia. É liderado pelo King's College London e pelo Instituto Nacional de Pesquisas Espaciais (Inpe), em parceria com a Ufopa, com financiamento da Agência Espacial Europeia (ESA).</p>
-            <p>A campanha de campo combina medidas na torre e em solo na Floresta Nacional do Tapajós, sobrevoos de uma aeronave de pesquisa do British Antarctic Survey e dados de satélites da ESA. A Ufopa coordena as atividades científicas no território, em especial no Baixo Tapajós.</p>
-            <p><a href="https://www.ufopa.edu.br/ufopa/comunica/noticias/torre-micrometeorologica-e-instalada-na-fazenda-experimental-da-ufopa/">Leia a notícia no portal da Ufopa</a></p>
-          </div>
-          <ul class="parceiros" aria-label="Instituições parceiras">
-            <li>King's College London</li>
-            <li>Inpe</li>
-            <li>ESA</li>
-            <li>British Antarctic Survey</li>
-            <li>Inpa</li>
-            <li>LBA</li>
+        <aside class="lateral">
+          <h2>Coordenação</h2>
+          <p>Prof. Dr. Julio Tota da Silva</p>
+          <h2>Onde estamos</h2>
+          <p>NTL, bloco 05, sala 205<br>Unidade Tapajós, Santarém (PA)</p>
+          <h2>Locais de medição</h2>
+          <ul>
+            <li>Fazenda Experimental da Ufopa, km 37 da PA-370</li>
+            <li>Floresta Nacional do Tapajós, km 67</li>
           </ul>
-        </div>
-
-        <dl class="medidas">
-          <div><dt>altura da torre micrometeorológica</dt><dd>40<small>m</small></dd></div>
-          <div><dt>área da Fazenda Experimental</dt><dd>660<small>ha</small></dd></div>
-          <div><dt>de equipamentos previstos para a universidade</dt><dd>4<small>t</small></dd></div>
-          <div><dt>valor estimado dos equipamentos</dt><dd>30<small>mi R$</small></dd></div>
-        </dl>
+        </aside>
       </div>
-    </section>
 
-    <section class="section section-alt" id="equipe">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="kicker">Equipe</p>
-          <h2>Quem faz o laboratório</h2>
-        </div>
-        <div class="pessoa">
-          <div class="pessoa-sigla" aria-hidden="true">JT</div>
-          <div>
-            <p class="papel">Coordenador</p>
-            <h3>Prof. Dr. Julio Tota da Silva</h3>
-            <p>Meteorologista formado pela UFPA, mestre em Meteorologia pelo Inpe e doutor em Clima e Ambiente pelo Inpa/UEA. Professor do curso de Ciências Atmosféricas do IEG, pesquisa as trocas de carbono, água e energia entre a floresta e a atmosfera e coordena localmente o projeto CarbonARA-Brazil.</p>
-          </div>
-        </div>
-        <div class="chamada">
-          <h3>Estudantes</h3>
-          <p>Alunos de graduação interessados em instrumentação, trabalho de campo e análise de dados podem procurar o laboratório para iniciação científica, estágio e trabalho de conclusão de curso.</p>
-        </div>
+      <h2>Projetos em andamento</h2>
+      <div class="projetos">
+        <article class="projeto">
+          <a href="carbonara.html"><img src="assets/img/fotos/torre-fazenda.jpg" alt="Vista aérea da torre metálica em meio à vegetação na Fazenda Experimental" width="500" height="345"></a>
+          <h3><a href="carbonara.html">CarbonARA-Brazil</a></h3>
+          <p>Campanha internacional que mede, do solo, do ar e do espaço, os gases de efeito estufa e as emissões de queimadas em uma área de 100 por 100 km ao redor de Santarém. A Ufopa coordena as atividades locais.</p>
+          <p class="situacao">Dois anos de duração a partir de 2025, com financiamento da Agência Espacial Europeia</p>
+        </article>
+        <article class="projeto">
+          <a href="radiossondas.html"><img src="assets/img/radiossonda-esquema.svg" alt="Esquema da subida e da descida de uma radiossonda, com a estação receptora no solo" width="700" height="360"></a>
+          <h3><a href="radiossondas.html">Rastreamento de radiossondas</a></h3>
+          <p>Recepção do sinal das radiossondas na subida e na descida para obter perfis verticais da atmosfera em alta resolução, acompanhar o deslocamento das sondas e localizar onde elas caem.</p>
+          <p class="situacao">Desde 2023, projeto de pesquisa PIIE970-2023</p>
+        </article>
       </div>
-    </section>
 
-    <section class="section" id="rede">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="kicker">Rede no IEG</p>
-          <h2>Ciências Atmosféricas na Ufopa</h2>
-          <p>O LabMet trabalha ao lado de outros laboratórios do instituto dedicados à atmosfera. Juntos, cobrem da medição em campo à modelagem e à previsão do tempo.</p>
-        </div>
-        <div class="table-scroll" tabindex="0" role="region" aria-label="Laboratórios de Ciências Atmosféricas do IEG">
-          <table>
-            <thead>
-              <tr><th scope="col">Laboratório</th><th scope="col">Sigla</th><th scope="col">Coordenação</th><th scope="col">Local</th></tr>
-            </thead>
-            <tbody>
-              <tr class="destaque"><td>Instrumentação Meteorológica Multidisciplinar</td><td class="sigla">LabMet</td><td>Julio Tota da Silva</td><td class="local">NTL · sala 205</td></tr>
-              <tr><td>Sensoriamento Remoto Meteorológico</td><td class="sigla">LABSREM</td><td>Wilderclay Barreto Machado</td><td class="local">BMT · sala 101</td></tr>
-              <tr><td>Modelagem Atmosférica e Previsão Numérica de Tempo</td><td class="sigla">LabMaPNT</td><td>Alex Santos da Silva</td><td class="local">BMT · sala 101</td></tr>
-              <tr><td>Física e Química da Atmosfera</td><td class="sigla">—</td><td>Raphael Pablo Tapajós Silva</td><td class="local">Bloco 21</td></tr>
-              <tr><td>Micrometeorologia</td><td class="sigla">—</td><td>Raphael Pablo Tapajós Silva</td><td class="local">Bloco 21</td></tr>
-              <tr><td>Observatório Atmosférico da Amazônia</td><td class="sigla">—</td><td>Theomar Trindade de Araújo Tiburtino Neves</td><td class="local">Fazenda Experimental</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="fonte">Fonte: <a href="https://ieg.ufopa.edu.br/ieg/laboratorios-2/">relação de laboratórios do IEG</a>.</p>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="contato">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="kicker">Contato</p>
-          <h2>Onde nos encontrar</h2>
-        </div>
-        <div class="contato">
-          <div>
-            <h3>Endereço</h3>
-            <p>Núcleo Tecnológico de Laboratórios (NTL), sala 205<br>Ufopa, Unidade Tapajós<br>Rua Raimundo Fona, em frente ao Restaurante Universitário<br>Santarém, Pará</p>
-          </div>
-          <div>
-            <h3>Curso de Ciências Atmosféricas</h3>
-            <p>ciencias.atmosfericas@ufopa.edu.br<br>(93) 99242-5201</p>
-          </div>
-          <div>
-            <h3>Na internet</h3>
-            <p><a href="https://github.com/labmet-ufopa">github.com/labmet-ufopa</a><br>
-            <a href="https://ieg.ufopa.edu.br/ieg/graduacao/bacharelado-em-ciencias-atmosfericas/">Bacharelado em Ciências Atmosféricas</a><br>
-            <a href="https://www.ufopa.edu.br/">Portal da Ufopa</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
+      <h2>Notícias</h2>
+      <ul class="noticias">
+        <li>
+          <time datetime="2025-10-10">10 out. 2025</time>
+          <span><a href="https://www.kcl.ac.uk/news/kings-leads-major-international-effort-to-monitor-amazons-climate-tipping-point">King's College London apresenta a campanha de monitoramento na Amazônia</a> <span class="fonte">King's College London (em inglês)</span></span>
+        </li>
+        <li>
+          <time datetime="2025-10-06">6 out. 2025</time>
+          <span><a href="https://www.ufopa.edu.br/ufopa/comunica/noticias/torre-micrometeorologica-e-instalada-na-fazenda-experimental-da-ufopa/">Torre micrometeorológica é instalada na Fazenda Experimental da Ufopa</a> <span class="fonte">Ascom/Ufopa</span></span>
+        </li>
+        <li>
+          <time datetime="2025-09-26">26 set. 2025</time>
+          <span><a href="https://www.ufopa.edu.br/ufopa/comunica/noticias/aeronave-britanica-realiza-primeiro-voo-na-amazonia-para-estudar-o-clima-global/">Aeronave britânica realiza primeiro voo na Amazônia para estudar o clima global</a> <span class="fonte">Ascom/Ufopa</span></span>
+        </li>
+        <li>
+          <time datetime="2025-09-01">1 set. 2025</time>
+          <span><a href="https://www.ufopa.edu.br/ufopa/comunica/noticias/carbonara-brazil-traz-novos-equipamentos-a-ufopa-para-monitorar-queimadas/">CarbonARA-Brazil traz novos equipamentos à Ufopa para monitorar queimadas</a> <span class="fonte">Ascom/Ufopa</span></span>
+        </li>
+      </ul>
+    </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
+  <footer class="rodape">
+    <div class="container">
       <div>
         <p><strong>LabMet UFOPA</strong></p>
         <p>Laboratório de Instrumentação Meteorológica Multidisciplinar</p>
-        <p>© <span id="ano">2026</span> · Universidade Federal do Oeste do Pará</p>
+        <p>Instituto de Engenharia e Geociências</p>
       </div>
-      <div class="fontes">
-        <p>Informações desta página:</p>
-        <ul>
-          <li><a href="https://ieg.ufopa.edu.br/ieg/laboratorios-2/">Laboratórios do IEG</a></li>
-          <li><a href="https://sigaa.ufopa.edu.br/sigaa/public/curso/portal.jsf?lc=pt_BR&amp;id=284585">Curso de Ciências Atmosféricas no SIGAA</a></li>
-          <li><a href="https://www.ufopa.edu.br/ufopa/comunica/noticias/torre-micrometeorologica-e-instalada-na-fazenda-experimental-da-ufopa/">Notícia sobre a torre micrometeorológica</a></li>
-        </ul>
+      <div>
+        <p><strong>Endereço</strong></p>
+        <p>Núcleo Tecnológico de Laboratórios (NTL), sala 205</p>
+        <p>Ufopa, Unidade Tapajós, Santarém, Pará</p>
+      </div>
+      <div>
+        <p><strong>Links</strong></p>
+        <p><a href="https://github.com/labmet-ufopa">GitHub do laboratório</a></p>
+        <p><a href="https://ieg.ufopa.edu.br/ieg/graduacao/bacharelado-em-ciencias-atmosfericas/">Bacharelado em Ciências Atmosféricas</a></p>
       </div>
     </div>
   </footer>
-
-  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
