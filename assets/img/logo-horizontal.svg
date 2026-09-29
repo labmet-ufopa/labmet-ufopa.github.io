@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-labelledby="t">
+  <title id="t">LabMet UFOPA — Laboratório de Instrumentação Meteorológica Multidisciplinar</title>
+  <rect width="96" height="96" rx="20" fill="#0b3a47"/>
+  <path d="M12 81 q9 -6 18 0 t18 0 t18 0 t18 0" fill="none" stroke="#4cc3d6" stroke-width="3.5" stroke-linecap="round"/>
+  <g stroke="#ffffff" stroke-width="4.5" stroke-linecap="round">
+    <line x1="48" y1="42" x2="48" y2="70"/>
+    <line x1="48" y1="42" x2="48" y2="20"/>
+    <line x1="48" y1="42" x2="67.05" y2="53"/>
+    <line x1="48" y1="42" x2="28.95" y2="53"/>
+  </g>
+  <g fill="#f2bd3a">
+    <path d="M48 11 a9 9 0 0 1 0 18 z"/>
+    <path d="M74.85 57.5 A9 9 0 0 1 59.26 48.5 z"/>
+    <path d="M21.15 57.5 A9 9 0 0 1 36.74 48.5 z"/>
+  </g>
+  <circle cx="48" cy="42" r="5.5" fill="#ffffff"/>
+  <text x="116" y="56" font-family="'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="700" fill="#0b3a47" letter-spacing="-1">LabMet</text>
+  <text x="118" y="80" font-family="'IBM Plex Mono',Menlo,Consolas,monospace" font-size="13" fill="#00798c" letter-spacing="1.5">UFOPA · SANTARÉM · AMAZÔNIA</text>
+</svg>
