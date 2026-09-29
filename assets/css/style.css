@@ -302,3 +302,30 @@ blockquote footer { font-size: 0.9rem; color: var(--texto-suave); margin-top: 0.
   .idiomas a { padding: 0.25rem 0.3rem; }
   .idiomas span { display: none; }
 }
+
+/* Menu recolhível no celular */
+.menu-botao { display: none; }
+@media (max-width: 860px) {
+  .cabecalho .container { flex-wrap: wrap; gap: 0.5rem 0.75rem; padding-top: 0.7rem; padding-bottom: 0.7rem; }
+  .cabecalho .marca { flex: 1 1 0; }
+  .menu-botao:not([hidden]) { display: inline-flex; align-items: center; gap: 0.55rem; font: inherit; font-weight: 700; font-size: 0.95rem; color: var(--azul); background: #fff; border: 1px solid var(--linha); border-radius: 999px; padding: 0.5rem 0.95rem; cursor: pointer; }
+  .menu-botao:hover { border-color: var(--azul-medio); }
+  .menu-botao:focus-visible { outline: 3px solid #f2bd3a; outline-offset: 2px; }
+  .menu-botao[aria-expanded="true"] { background: var(--azul); border-color: var(--azul); color: #fff; }
+  .menu-icone, .menu-icone::before, .menu-icone::after { display: block; width: 18px; height: 2px; border-radius: 2px; background: currentColor; transition: transform 0.2s, background 0.2s; }
+  .menu-icone { position: relative; }
+  .menu-icone::before, .menu-icone::after { content: ""; position: absolute; left: 0; }
+  .menu-icone::before { top: -6px; }
+  .menu-icone::after { top: 6px; }
+  .menu-botao[aria-expanded="true"] .menu-icone { background: transparent; }
+  .menu-botao[aria-expanded="true"] .menu-icone::before { transform: translateY(6px) rotate(45deg); }
+  .menu-botao[aria-expanded="true"] .menu-icone::after { transform: translateY(-6px) rotate(-45deg); }
+
+  .menu-botao:not([hidden]) ~ .menu { display: none; flex-basis: 100%; }
+  .menu-botao:not([hidden]) ~ .menu.aberto { display: block; }
+  .menu-botao:not([hidden]) ~ .menu ul { flex-direction: column; gap: 0.15rem; padding-top: 0.6rem; margin-top: 0.3rem; border-top: 1px solid var(--linha); }
+  .menu-botao:not([hidden]) ~ .menu a { padding: 0.75rem 1rem; border-radius: 10px; font-size: 1.02rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .menu-icone, .menu-icone::before, .menu-icone::after { transition: none; }
+}
