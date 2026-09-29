@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radiosonde tracking | LabMet UFOPA</title>
+  <meta name="description" content="Ufopa research project that receives radiosonde signals during ascent and descent to analyse vertical profiles of the atmosphere in western Pará.">
+  <meta property="og:title" content="Radiosonde tracking | LabMet UFOPA">
+  <meta property="og:description" content="Ufopa research project that receives radiosonde signals during ascent and descent to analyse vertical profiles of the atmosphere in western Pará.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://labmet-ufopa.github.io/en/radiossondas.html">
+  <meta property="og:image" content="https://labmet-ufopa.github.io/assets/img/fotos/twin-otter-hangar.jpg">
+  <meta property="og:locale" content="en_GB">
+  <link rel="alternate" hreflang="pt-BR" href="https://labmet-ufopa.github.io/radiossondas.html">
+  <link rel="alternate" hreflang="en" href="https://labmet-ufopa.github.io/en/radiossondas.html">
+  <link rel="alternate" hreflang="x-default" href="https://labmet-ufopa.github.io/radiossondas.html">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Skip to content</a>
+
+  <div class="barra-ufopa">
+    <div class="container">
+      <a class="ufopa-marca" href="https://www.ufopa.edu.br/"><img src="../assets/img/ufopa-brasao.png" alt="Ufopa coat of arms" width="30" height="30"><span>Federal University of Western Pará</span></a>
+      <div class="barra-direita">
+        <a class="ufopa-instituto" href="https://ieg.ufopa.edu.br/">Institute of Engineering and Geosciences</a>
+        <nav class="idiomas" aria-label="Language">
+          <a href="../radiossondas.html" hreflang="pt-BR" lang="pt-BR" title="Português (Brasil)"><img src="../assets/img/bandeira-br.svg" alt="" width="24" height="16"><span>PT</span></a>
+          <a href="radiossondas.html" hreflang="en" lang="en" aria-current="true" title="English"><img src="../assets/img/bandeira-uk.svg" alt="" width="24" height="16"><span>EN</span></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <header class="cabecalho">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <img src="../assets/img/logo.svg" alt="" width="44" height="44">
+        <span>
+          <span class="marca-nome">LabMet</span>
+          <span class="marca-desc">Meteorological Instrumentation · Ufopa</span>
+        </span>
+      </a>
+      <nav class="menu" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="carbonara.html">CarbonARA</a></li>
+          <li><a href="radiossondas.html" aria-current="page">Radiosondes</a></li>
+          <li><a href="produtos.html">Products</a></li>
+          <li><a href="publicacoes.html">Publications</a></li>
+          <li><a href="equipe.html">Team</a></li>
+          <li><a href="contato.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero hero-interno">
+      <img src="../assets/img/fotos/esa-floresta-secundaria.jpg" alt="Aerial view of forest and open land under a hazy sky">
+      <div class="container">
+        <p class="migalha"><a href="index.html">Home</a> / Projects</p>
+        <h1>Radiosonde tracking</h1>
+        <p class="hero-texto">We follow the radiosondes launched in Santarém from the moment they rise until the point where they come down.</p>
+      </div>
+      <p class="credito">Photo: ESA, CarbonARA project</p>
+    </section>
+
+    <section class="secao">
+      <div class="container colunas">
+        <div>
+          <p class="sobretitulo">The project</p>
+          <h2>The atmospheric profile, on the way up and on the way down</h2>
+          <p>A radiosonde is a small set of sensors attached to a balloon. As it rises, it measures temperature, humidity and pressure and transmits the data by radio, together with its GPS position, from which the wind is calculated. When the balloon bursts, the sonde falls and keeps transmitting until it is close to the ground.</p>
+          <p>Knowing the vertical profile of the atmosphere is essential for accurate and reliable weather forecasts. In Santarém, routine soundings are launched from the airport twice a day, at 9 am and 9 pm local time.</p>
+          <p>The laboratory operates an acquisition system that receives the sondes' signal by telemetry throughout the flight. This gives access to high-resolution data, including descent data, which are normally discarded, and makes it possible to follow the sonde's trajectory so it can be located and recovered after it lands.</p>
+
+          <figure class="figura-svg">
+        <svg viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
+          <title id="fig-t">Trajectory of a radiosonde</title>
+          <desc id="fig-d">The sonde rises from the launch point while being carried by the wind, the balloon bursts at the highest point and the sonde descends to the landing point, some distance from the launch. A receiving station on the ground picks up the signal throughout the flight.</desc>
+          <line x1="70" y1="300" x2="670" y2="300" stroke="#1d252c" stroke-width="1.5"/>
+          <line x1="70" y1="300" x2="70" y2="30" stroke="#1d252c" stroke-width="1.5"/>
+          <text class="eixo" x="370" y="340" text-anchor="middle">Distance from launch point</text>
+          <text class="eixo" x="28" y="165" text-anchor="middle" transform="rotate(-90 28 165)">Altitude</text>
+          <path d="M110 300 C 170 210, 260 120, 400 60" fill="none" stroke="#0a6aa8" stroke-width="3"/>
+          <path d="M400 60 C 470 110, 540 200, 600 300" fill="none" stroke="#1f7a4d" stroke-width="3" stroke-dasharray="7 6"/>
+          <circle cx="110" cy="300" r="6" fill="#0a6aa8"/>
+          <circle cx="400" cy="60" r="6" fill="#1d252c"/>
+          <circle cx="600" cy="300" r="6" fill="#1f7a4d"/>
+          <text x="110" y="322" text-anchor="middle">Launch</text>
+          <text x="414" y="50">Balloon burst</text>
+          <text x="600" y="322" text-anchor="middle">Landing</text>
+          <text x="205" y="150" text-anchor="end">Ascent</text>
+          <text x="545" y="150">Descent</text>
+          <rect x="296" y="286" width="14" height="14" fill="#1d252c"/>
+          <line x1="303" y1="286" x2="303" y2="262" stroke="#1d252c" stroke-width="2"/>
+          <line x1="303" y1="262" x2="400" y2="60" stroke="#5a6772" stroke-width="1" stroke-dasharray="2 5"/>
+          <text x="318" y="282">Receiving station</text>
+        </svg>
+            <figcaption>Diagram of a radiosonde flight. The signal is received on the ground during both ascent and descent. Not to scale.</figcaption>
+          </figure>
+        </div>
+
+        <aside class="lateral">
+          <h2>Project in SIGAA</h2>
+          <p><strong>Code:</strong> PIIE970-2023</p>
+          <p><strong>Status:</strong> ongoing</p>
+          <p><strong>Area:</strong> Meteorology</p>
+          <p><strong>Research lines:</strong> Physical Meteorology, Atmospheric Modelling, Meteorological Instrumentation</p>
+          <h2>Team</h2>
+          <ul>
+            <li>Antonio Marcos Delfino de Andrade, coordinator</li>
+            <li>Julio Tota da Silva, deputy coordinator</li>
+            <li>Raoni Aquino Silva de Santana</li>
+            <li>Theomar Trindade de Araújo Tiburtino Neves</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="secao secao-suave">
+      <div class="container">
+        <div class="texto">
+          <p class="sobretitulo">Objectives</p>
+          <h2>What we want to answer</h2>
+          <p>The general objective is to validate high-resolution radiosonde profiles, especially descent profiles, and to characterise wind patterns at low, middle and high altitudes. The specific objectives are:</p>
+          <ul>
+            <li>to compare in detail the atmospheric profiles from the ascent and descent phases;</li>
+            <li>to analyse the horizontal drift of the radiosondes during the flight;</li>
+            <li>to compare the high-resolution data with interpolation from the significant levels, which is how soundings are usually distributed.</li>
+          </ul>
+
+          <h2>Why recover the sondes</h2>
+          <p>Commercial radiosondes are designed for single use and are usually left where they fall. Because tracking gives the sonde's position up to the last moments of the flight, it is possible to go and collect it. A recovered sonde is no longer electronic waste in the forest and becomes material for study and teaching: students can open the device, understand the sensors and test how it can be reused.</p>
+
+          <h2>Links with other projects</h2>
+          <p>The vertical profiles help interpret the tower and aircraft measurements from <a href="carbonara.html">CarbonARA</a>, because they show the height of the air layer near the surface where gases emitted by the forest and by fires mix. They are also used to evaluate numerical weather prediction models in the region.</p>
+
+          <h2>Source</h2>
+          <p>The project details are on the <a href="https://sigaa.ufopa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf">SIGAA/Ufopa public research projects portal</a>, under the title "Análise dos perfis verticais atmosféricos e rastreamento de radiossondagens em alta resolução no Oeste do Pará" (Analysis of vertical atmospheric profiles and high-resolution radiosonde tracking in western Pará).</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div>
+        <div class="marca-rodape"><img src="../assets/img/logo.svg" alt="" width="40" height="40"><span>LabMet</span></div>
+        <p>Multidisciplinary Meteorological Instrumentation Laboratory</p>
+        <p>Institute of Engineering and Geosciences, Ufopa</p>
+      </div>
+      <div>
+        <p><strong>Address</strong></p>
+        <p>Technology Laboratories Centre (NTL), room 205</p>
+        <p>Tapajós Campus, Santarém, Pará</p>
+      </div>
+      <div>
+        <p><strong>Links</strong></p>
+        <p><a href="https://github.com/labmet-ufopa">Lab GitHub</a></p>
+        <p><a href="https://ieg.ufopa.edu.br/ieg/graduacao/bacharelado-em-ciencias-atmosfericas/">Bachelor's in Atmospheric Sciences</a></p>
+        <p><a href="https://climate.esa.int/en/supporting-the-paris-agreement/CarbonARA/">CarbonARA at ESA</a></p>
+      </div>
+    </div>
+    <div class="rodape-fim">
+      <div class="container"><img src="../assets/img/ufopa-brasao.png" alt="" width="32" height="32"><span>Federal University of Western Pará. Photo credits are shown on each page.</span></div>
+    </div>
+  </footer>
+</body>
+</html>

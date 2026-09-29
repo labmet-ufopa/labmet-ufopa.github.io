@@ -55,6 +55,12 @@ a:focus-visible, .botao:focus-visible { outline: 3px solid #f2bd3a; outline-offs
 .ufopa-marca img { width: 1.9rem; height: 1.9rem; flex: none; }
 .ufopa-marca span { color: #fff; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; line-height: 1.2; }
 .ufopa-instituto { font-weight: 600; }
+.barra-direita { display: flex; align-items: center; gap: 0.4rem 1.25rem; }
+.idiomas { display: flex; gap: 0.3rem; }
+.idiomas a { display: flex; align-items: center; gap: 0.35rem; padding: 0.2rem 0.45rem; border-radius: 6px; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.04em; opacity: 0.72; }
+.idiomas a:hover { opacity: 1; background: rgba(255, 255, 255, 0.08); }
+.idiomas a[aria-current] { opacity: 1; color: #fff; background: rgba(255, 255, 255, 0.14); }
+.idiomas img { width: 24px; height: 16px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35); }
 
 /* Cabeçalho */
 .cabecalho { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--linha); }
@@ -287,6 +293,12 @@ blockquote footer { font-size: 0.9rem; color: var(--texto-suave); margin-top: 0.
   .menu a { padding: 0.4rem 0.65rem; font-size: 0.92rem; }
 }
 @media (max-width: 600px) {
-  .ufopa-marca span { font-size: 0.74rem; letter-spacing: 0.04em; }
+  .barra-ufopa .container { flex-wrap: nowrap; gap: 0.5rem; }
+  .ufopa-marca { gap: 0.45rem; min-width: 0; }
+  .ufopa-marca img { width: 1.6rem; height: 1.6rem; }
+  .ufopa-marca span { font-size: 0.66rem; letter-spacing: 0.02em; }
   .ufopa-instituto { display: none; }
+  .idiomas { gap: 0.15rem; }
+  .idiomas a { padding: 0.25rem 0.3rem; }
+  .idiomas span { display: none; }
 }

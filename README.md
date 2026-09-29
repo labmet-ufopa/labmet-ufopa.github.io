@@ -18,6 +18,12 @@ Publicado em <https://labmet-ufopa.github.io/> pelo GitHub Pages, a partir da br
 
 Os estilos ficam em `assets/css/style.css` e as imagens em `assets/img/`.
 
+## Versão em inglês
+
+O português é o idioma principal. A versão em inglês fica em `en/`, com os mesmos nomes de arquivo (`en/index.html`, `en/carbonara.html` etc.). O seletor com as bandeiras, no canto superior direito, leva à mesma página no outro idioma.
+
+Ao mudar o texto de uma página, atualize também a página correspondente em `en/`. Nas páginas em inglês, os caminhos para `assets/` e `data/` começam com `../`.
+
 ## Como editar
 
 O site é HTML estático, sem etapa de build. O cabeçalho e o rodapé se repetem em cada página, então uma mudança no menu precisa ser feita em todos os arquivos `.html`.

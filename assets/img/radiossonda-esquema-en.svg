@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
+          <style>text{font-family:"Fira Sans","Helvetica Neue",Arial,sans-serif;font-size:14px;fill:#1d252c}.eixo{fill:#5a6772;font-size:13px}</style><rect width="700" height="360" fill="#fff"/><title id="fig-t">Trajectory of a radiosonde</title>
+          <desc id="fig-d">The sonde rises from the launch point while being carried by the wind, the balloon bursts at the highest point and the sonde descends to the landing point, some distance from the launch. A receiving station on the ground picks up the signal throughout the flight.</desc>
+          <line x1="70" y1="300" x2="670" y2="300" stroke="#1d252c" stroke-width="1.5"/>
+          <line x1="70" y1="300" x2="70" y2="30" stroke="#1d252c" stroke-width="1.5"/>
+          <text class="eixo" x="370" y="340" text-anchor="middle">Distance from the launch point</text>
+          <text class="eixo" x="28" y="165" text-anchor="middle" transform="rotate(-90 28 165)">Altitude</text>
+          <path d="M110 300 C 170 210, 260 120, 400 60" fill="none" stroke="#0a6aa8" stroke-width="3"/>
+          <path d="M400 60 C 470 110, 540 200, 600 300" fill="none" stroke="#1f7a4d" stroke-width="3" stroke-dasharray="7 6"/>
+          <circle cx="110" cy="300" r="6" fill="#0a6aa8"/>
+          <circle cx="400" cy="60" r="6" fill="#1d252c"/>
+          <circle cx="600" cy="300" r="6" fill="#1f7a4d"/>
+          <text x="110" y="322" text-anchor="middle">Launch</text>
+          <text x="414" y="50">Balloon burst</text>
+          <text x="600" y="322" text-anchor="middle">Landing</text>
+          <text x="205" y="150" text-anchor="end">Ascent</text>
+          <text x="545" y="150">Descent</text>
+          <rect x="296" y="286" width="14" height="14" fill="#1d252c"/>
+          <line x1="303" y1="286" x2="303" y2="262" stroke="#1d252c" stroke-width="2"/>
+          <line x1="303" y1="262" x2="400" y2="60" stroke="#5a6772" stroke-width="1" stroke-dasharray="2 5"/>
+          <text x="318" y="282">Receiving station</text>
+        </svg>

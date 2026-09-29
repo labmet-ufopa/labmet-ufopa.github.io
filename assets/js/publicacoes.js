@@ -5,6 +5,18 @@
   const botoes = document.querySelector('#filtros-professor');
   const busca = document.querySelector('#busca');
   const MAX_AUTORES = 8;
+  const ingles = document.documentElement.lang === 'en';
+  const T = ingles ? {
+    aberto: 'Open access', todos: 'All', nenhuma: 'No publications match this filter.',
+    uma: ' publication', varias: ' publications',
+    erro: 'The publication list could not be loaded. Reload the page to try again.',
+    dados: '../data/publicacoes.json',
+  } : {
+    aberto: 'Acesso aberto', todos: 'Todos', nenhuma: 'Nenhuma publicação encontrada com esse filtro.',
+    uma: ' publicação', varias: ' publicações',
+    erro: 'Não foi possível carregar a lista de publicações. Recarregue a página para tentar de novo.',
+    dados: 'data/publicacoes.json',
+  };
 
   let publicacoes = [];
   let professor = '';
@@ -46,7 +58,7 @@
     li.append(a, autores(pub));
     const meta = criar('p', 'pub-meta');
     meta.append(criar('em', '', pub.periodico), ', ' + pub.ano);
-    if (pub.acesso_aberto) meta.append(criar('span', 'selo', 'Acesso aberto'));
+    if (pub.acesso_aberto) meta.append(criar('span', 'selo', T.aberto));
     li.append(meta);
     return li;
   }
@@ -76,13 +88,13 @@
     });
 
     contagem.textContent = filtradas.length === 0
-      ? 'Nenhuma publicação encontrada com esse filtro.'
-      : filtradas.length + (filtradas.length === 1 ? ' publicação' : ' publicações');
+      ? T.nenhuma
+      : filtradas.length + (filtradas.length === 1 ? T.uma : T.varias);
   }
 
   function montarFiltros() {
     const nomes = [...new Set(publicacoes.flatMap((p) => p.professores))].sort();
-    [['', 'Todos']].concat(nomes.map((n) => [n, n])).forEach(([valor, rotulo]) => {
+    [['', T.todos]].concat(nomes.map((n) => [n, n])).forEach(([valor, rotulo]) => {
       const b = criar('button', 'filtro', rotulo);
       b.type = 'button';
       b.setAttribute('aria-pressed', String(valor === professor));
@@ -95,7 +107,7 @@
     });
   }
 
-  fetch('data/publicacoes.json')
+  fetch(T.dados)
     .then((r) => {
       if (!r.ok) throw new Error(r.status);
       return r.json();
@@ -105,13 +117,13 @@
       const quando = document.querySelector('#atualizado');
       if (quando && dados.atualizado_em) {
         const [a, m, d] = dados.atualizado_em.split('-');
-        quando.textContent = d + '/' + m + '/' + a;
+        quando.textContent = ingles ? a + '-' + m + '-' + d : d + '/' + m + '/' + a;
       }
       montarFiltros();
       busca.addEventListener('input', mostrar);
       mostrar();
     })
     .catch(() => {
-      contagem.textContent = 'Não foi possível carregar a lista de publicações. Recarregue a página para tentar de novo.';
+      contagem.textContent = T.erro;
     });
 })();
