@@ -11,14 +11,16 @@ Publicado em <https://labmet-ufopa.github.io/> pelo GitHub Pages, a partir da br
 | `index.html` | Apresentação, projetos em andamento e notícias |
 | `carbonara.html` | Projeto CarbonARA-Brazil |
 | `radiossondas.html` | Projeto de rastreamento de radiossondas |
-| `equipe.html` | Coordenação, docentes colaboradores e estudantes |
+| `produtos.html` | Ferramentas desenvolvidas no laboratório |
+| `publicacoes.html` | Artigos dos professores, lidos de `data/publicacoes.json` |
+| `equipe.html` | Professores do laboratório, colaboradores e estudantes |
 | `contato.html` | Endereço e contatos |
 
 Os estilos ficam em `assets/css/style.css` e as imagens em `assets/img/`.
 
 ## Como editar
 
-O site é HTML estático, sem etapa de build. O cabeçalho e o rodapé se repetem em cada página, então uma mudança no menu precisa ser feita nos cinco arquivos.
+O site é HTML estático, sem etapa de build. O cabeçalho e o rodapé se repetem em cada página, então uma mudança no menu precisa ser feita em todos os arquivos `.html`.
 
 Para ver localmente:
 
@@ -30,11 +32,22 @@ Depois abra <http://localhost:8000>.
 
 Para incluir uma notícia, copie um item `<li>` da lista `noticias` em `index.html` e troque a data, o link e o título.
 
+## Publicações
+
+A lista vem da base aberta [OpenAlex](https://openalex.org/). Para atualizar:
+
+```sh
+python3 scripts/atualizar_publicacoes.py
+```
+
+O script grava `data/publicacoes.json`. No início dele ficam a lista de professores, o ano inicial e os DOIs excluídos (artigos fora dos temas do laboratório, duplicados ou retratados). Para incluir um professor, acrescente o identificador de autor dele na OpenAlex.
+
 ## Fotos
 
 As imagens ficam em `assets/img/fotos/` e o crédito aparece na legenda de cada uma.
 
 - Arquivos sem prefixo: Assessoria de Comunicação da Ufopa, publicados nas notícias do portal da universidade.
+- `assets/img/equipe/`: retratos do portal público do SIGAA/Ufopa e da página pessoal do professor.
 - Arquivos com prefixo `esa-`: página do projeto CarbonARA no portal de clima da Agência Espacial Europeia. Os termos de uso do portal pedem autorização por escrito para reprodução, então o uso aqui deve ser confirmado com a coordenação do projeto.
 
 ## Fontes das informações

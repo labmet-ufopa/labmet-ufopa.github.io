@@ -1,0 +1,3226 @@
+{
+ "atualizado_em": "2026-09-29",
+ "fonte": "OpenAlex",
+ "ano_inicial": 2013,
+ "publicacoes": [
+  {
+   "titulo": "Global Performance of Remote Sensing‐Based and Reanalysis‐Driven Models to Estimate Open Water Evaporation",
+   "ano": 2026,
+   "periodico": "Water Resources Research",
+   "doi": "10.1029/2025wr042363",
+   "autores": [
+    {
+     "nome": "Júlia Brusso Rossi",
+     "lab": false
+    },
+    {
+     "nome": "Ayan Santos Fleischmann",
+     "lab": false
+    },
+    {
+     "nome": "Leonardo Laipelt",
+     "lab": false
+    },
+    {
+     "nome": "Bruno Comini de Andrade",
+     "lab": false
+    },
+    {
+     "nome": "Joshua B. Fisher",
+     "lab": false
+    },
+    {
+     "nome": "Justin L. Huntington",
+     "lab": false
+    },
+    {
+     "nome": "Christopher Pearson",
+     "lab": false
+    },
+    {
+     "nome": "R. Iestyn Woolway",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni A. S. Santana",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Gabriel B. Senay",
+     "lab": false
+    },
+    {
+     "nome": "Huilin Gao",
+     "lab": false
+    },
+    {
+     "nome": "Anderson Ruhoff",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Incident shortwave radiation at a site in the Lower Amazon: Derivatives from measurements and from MERRA-2",
+   "ano": 2026,
+   "periodico": "Journal of Atmospheric and Solar-Terrestrial Physics",
+   "doi": "10.1016/j.jastp.2026.106888",
+   "autores": [
+    {
+     "nome": "Antonio M.D. Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Helen N.S. Lima",
+     "lab": false
+    },
+    {
+     "nome": "Arthur W.D. Silva",
+     "lab": false
+    },
+    {
+     "nome": "Diego P. Bezerra",
+     "lab": false
+    },
+    {
+     "nome": "Aurilene B.S. Andrade",
+     "lab": false
+    },
+    {
+     "nome": "Ana V.P. Mendes",
+     "lab": false
+    },
+    {
+     "nome": "Rafael C. Muniz",
+     "lab": false
+    },
+    {
+     "nome": "Theomar T.A.T. Neves",
+     "lab": false
+    },
+    {
+     "nome": "Julio T. Silva",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Mapeamento solarimétrico do estado de alagoas em anos de eventos extremos pluviométricos, utilizando o modelo WRF-Solar",
+   "ano": 2026,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v19.02.p586-599",
+   "autores": [
+    {
+     "nome": "Taiane Alves da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Rosiberto Salustiano da Silva Junior",
+     "lab": false
+    },
+    {
+     "nome": "Diogo Nunes da Silva Ramos",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos D. Andrade",
+     "lab": true
+    },
+    {
+     "nome": "José Francisco De Oliveira Junior",
+     "lab": false
+    },
+    {
+     "nome": "Ewerton de Souza Muniz",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Statistical Evaluation of Observed Precipitation from INMET Meteorological Stations and MERGE Estimates in the Eastern Amazon",
+   "ano": 2026,
+   "periodico": "Water",
+   "doi": "10.3390/w18080898",
+   "autores": [
+    {
+     "nome": "Priscila da S. Batista",
+     "lab": false
+    },
+    {
+     "nome": "Júlio T. da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Ana Carla dos S. Gomes",
+     "lab": false
+    },
+    {
+     "nome": "Jéssica A. de J. Corrêa",
+     "lab": false
+    },
+    {
+     "nome": "Gabriel Brito Costa",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos D. de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Carlos T. S. Dias",
+     "lab": false
+    },
+    {
+     "nome": "Leila S. S. Lisboa",
+     "lab": false
+    },
+    {
+     "nome": "Lucietta Guerreiro Martorano",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Very Short-Term CG Lightning Probability Forecasting in the Amazon Basin Using Deep Learning Models",
+   "ano": 2026,
+   "periodico": "Artificial Intelligence for the Earth Systems",
+   "doi": "10.1175/aies-d-25-0008.1",
+   "autores": [
+    {
+     "nome": "Adriano P. Almeida",
+     "lab": false
+    },
+    {
+     "nome": "Carlos A. Morales",
+     "lab": false
+    },
+    {
+     "nome": "Helvécio B. Leal Neto",
+     "lab": true
+    },
+    {
+     "nome": "John Cintineo",
+     "lab": false
+    },
+    {
+     "nome": "Alan J. P. Calheiros",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Helvecio Neto"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": false
+  },
+  {
+   "titulo": "Seasonal investigation of ultrafine-particle organic composition in an eastern Amazonian rainforest",
+   "ano": 2025,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-25-959-2025",
+   "autores": [
+    {
+     "nome": "Adam E. Thomas",
+     "lab": false
+    },
+    {
+     "nome": "Hayley S. Glicker",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Oscar Vega Bustillos",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo A. F. Souza",
+     "lab": false
+    },
+    {
+     "nome": "James N. Smith",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 6,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Análise observacional e de precipitação em uma fazenda experimental na Amazônia Oriental entre 1914 e 1981",
+   "ano": 2024,
+   "periodico": "Revista Brasileira de Climatologia",
+   "doi": "10.55761/abclima.v34i20.17366",
+   "autores": [
+    {
+     "nome": "Eliane Leite Reis de Sousa",
+     "lab": false
+    },
+    {
+     "nome": "Lucieta Guerrreiro Martorano",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Pablo Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Lucas Vaz Peres",
+     "lab": false
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    },
+    {
+     "nome": "José Reinaldo da Silva Cabral de Moraes",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Destreza dos modelos WRF e GFS em contraste com perfis verticais de radiossonda",
+   "ano": 2024,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x87743",
+   "autores": [
+    {
+     "nome": "Diego Pereira Bezerra",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Arthur Wendell Duarte Silva",
+     "lab": false
+    },
+    {
+     "nome": "Ana Vitória Padilha Mendes",
+     "lab": false
+    },
+    {
+     "nome": "Beatriz Freire Mota",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Aurilene Barros dos Santos de Andrade",
+     "lab": false
+    },
+    {
+     "nome": "Theomar Trindade de Araujo Tiburtino Neves",
+     "lab": false
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Avanços do simple biosphere model (SIB) na representação dos processos físicos e biogeoquímicos: Uma revisão de literatura",
+   "ano": 2023,
+   "periodico": "Revista Contexto Geográfico",
+   "doi": "10.28998/contegeo.8i.17.15769",
+   "autores": [
+    {
+     "nome": "Aurilene Barros dos Santos de Andrade",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Balanço de radiação da cana-de-açúcar na região de tabuleiros costeiros de Alagoas, Brasil",
+   "ano": 2023,
+   "periodico": "Revista Brasileira de Climatologia",
+   "doi": "10.55761/abclima.v32i19.15785",
+   "autores": [
+    {
+     "nome": "José Marcelo Lopes Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Carlos Alexandre Santos Querino",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antônio Lima Moura",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Efeitos de elementos climáticos na deposição e decomposição da serapilheira de Mata Atlântica no Estado de Alagoas",
+   "ano": 2023,
+   "periodico": "Geography Department University of Sao Paulo",
+   "doi": "10.11606/eissn.2236-2878.rdg.2023.182631",
+   "autores": [
+    {
+     "nome": "Carlos Alexandre Santos Querino",
+     "lab": false
+    },
+    {
+     "nome": "Marcos André Braz Vaz",
+     "lab": false
+    },
+    {
+     "nome": "Juliane Kayse Albuquerque da Silva Querino",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Marcos Antônio Lima Moura",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Optimizing the Isoprene Emission Model MEGAN With Satellite and Ground‐Based Observational Constraints",
+   "ano": 2023,
+   "periodico": "Journal of Geophysical Research Atmospheres",
+   "doi": "10.1029/2022jd037822",
+   "autores": [
+    {
+     "nome": "Christian A. DiMaria",
+     "lab": false
+    },
+    {
+     "nome": "Dylan B. A. Jones",
+     "lab": false
+    },
+    {
+     "nome": "Helen Worden",
+     "lab": false
+    },
+    {
+     "nome": "A. Anthony Bloom",
+     "lab": false
+    },
+    {
+     "nome": "Kevin Bowman",
+     "lab": false
+    },
+    {
+     "nome": "Trissevgeni Stavrakou",
+     "lab": false
+    },
+    {
+     "nome": "Kazuyuki Miyazaki",
+     "lab": false
+    },
+    {
+     "nome": "John Worden",
+     "lab": false
+    },
+    {
+     "nome": "Alex Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Chinmoy Sarkar",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Jeong‐Hoo Park",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Eliane Gomes Alves",
+     "lab": false
+    },
+    {
+     "nome": "Valerio Ferracci",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 26,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Efeito de sombreamento na região de esteiras de uma torre micrometeorológica tipo plataforma na Floresta Amazônica",
+   "ano": 2022,
+   "periodico": "Revista Ibero-Americana de Ciências Ambientais",
+   "doi": "10.6008/cbpc2179-6858.2022.001.0028",
+   "autores": [
+    {
+     "nome": "Rardiles Branches Ferreira",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Pablo Tapajós Silva",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta da Silva",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Impact of Multi-Thresholds and Vector Correction for Tracking Precipitating Systems over the Amazon Basin",
+   "ano": 2022,
+   "periodico": "Remote Sensing",
+   "doi": "10.3390/rs14215408",
+   "autores": [
+    {
+     "nome": "Helvecio B. Leal",
+     "lab": true
+    },
+    {
+     "nome": "Alan J. P. Calheiros",
+     "lab": false
+    },
+    {
+     "nome": "Henrique M. J. Barbosa",
+     "lab": false
+    },
+    {
+     "nome": "Adriano P. Almeida",
+     "lab": false
+    },
+    {
+     "nome": "Arturo Sanchez",
+     "lab": false
+    },
+    {
+     "nome": "Daniel A. Vila",
+     "lab": false
+    },
+    {
+     "nome": "Sâmia R. Garcia",
+     "lab": false
+    },
+    {
+     "nome": "Elbert E. N. Macau",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Helvecio Neto"
+   ],
+   "citacoes": 4,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Solar Ultraviolet Radiation Temporal Variability Analysis from 2-Year of Continuous Observation in an Amazonian City of Brazil",
+   "ano": 2022,
+   "periodico": "Atmosphere",
+   "doi": "10.3390/atmos13071054",
+   "autores": [
+    {
+     "nome": "Gabriela Reis",
+     "lab": false
+    },
+    {
+     "nome": "Samuel Souza",
+     "lab": false
+    },
+    {
+     "nome": "Helvécio Neto",
+     "lab": true
+    },
+    {
+     "nome": "Rardiles Branches",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Silva",
+     "lab": false
+    },
+    {
+     "nome": "Lucas Peres",
+     "lab": false
+    },
+    {
+     "nome": "Damaris Pinheiro",
+     "lab": false
+    },
+    {
+     "nome": "Kevin Lamy",
+     "lab": false
+    },
+    {
+     "nome": "Hassan Bencherif",
+     "lab": false
+    },
+    {
+     "nome": "Thierry Portafaix",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Helvecio Neto"
+   ],
+   "citacoes": 11,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Sulfuric acid in the Amazon basin: measurements and evaluation of existing sulfuric acid proxies",
+   "ano": 2022,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-22-10061-2022",
+   "autores": [
+    {
+     "nome": "Deanna C. Myers",
+     "lab": false
+    },
+    {
+     "nome": "Saewung Kim",
+     "lab": false
+    },
+    {
+     "nome": "Steven Sjostedt",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Oscar Vega Bustillos",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo A. F. Souza",
+     "lab": false
+    },
+    {
+     "nome": "James N. Smith",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 5,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Comparing the Air Turbulence above Smooth and Rough Surfaces in the Amazon Region",
+   "ano": 2021,
+   "periodico": "Atmosphere",
+   "doi": "10.3390/atmos12081043",
+   "autores": [
+    {
+     "nome": "Raoni A. S. Santana",
+     "lab": false
+    },
+    {
+     "nome": "Cléo Q. Dias-Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson S. do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Antônio O. Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Troy P. Beldini",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 9,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Data Acquisiton and Transmission System for Carbon Dioxide Analysis",
+   "ano": 2021,
+   "periodico": "Revista Brasileira de Meteorologia",
+   "doi": "10.1590/0102-77863610003",
+   "autores": [
+    {
+     "nome": "Renato Trevisan Signori",
+     "lab": false
+    },
+    {
+     "nome": "Samuel Alves de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Rardiles Branches Ferreira",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Gabriela Cacilda Godinho dos Reis",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Downward longwave radiation estimates for clear and all-sky conditions in central Amazonia",
+   "ano": 2021,
+   "periodico": "Revista Brasileira de Climatologia",
+   "doi": "10.5380/rbclima.v28i0.65725",
+   "autores": [
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Vicente de Paulo Rodrigues Da Silva",
+     "lab": false
+    },
+    {
+     "nome": "José Ivaldo Barbosa de Brito",
+     "lab": false
+    },
+    {
+     "nome": "Célia Campos Braga",
+     "lab": false
+    },
+    {
+     "nome": "Bernardo Barbosa da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Lincoln Eloi de Araújo",
+     "lab": false
+    },
+    {
+     "nome": "Romildo Morant de Holanda",
+     "lab": false
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Reconciling Observed and Predicted Tropical Rainforest OH Concentrations",
+   "ano": 2021,
+   "periodico": "Journal of Geophysical Research Atmospheres",
+   "doi": "10.1029/2020jd032901",
+   "autores": [
+    {
+     "nome": "Daun Jeong",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Louisa Emmons",
+     "lab": false
+    },
+    {
+     "nome": "Rebecca Schwantes",
+     "lab": false
+    },
+    {
+     "nome": "Yingjun Liu",
+     "lab": false
+    },
+    {
+     "nome": "Karena A. McKinney",
+     "lab": false
+    },
+    {
+     "nome": "Scot T. Martin",
+     "lab": false
+    },
+    {
+     "nome": "Frank N. Keutsch",
+     "lab": false
+    },
+    {
+     "nome": "Dasa Gu",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Oscar Vega",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo A. F. Souza",
+     "lab": false
+    },
+    {
+     "nome": "Stephen R. Springston",
+     "lab": false
+    },
+    {
+     "nome": "Thomas B. Watson",
+     "lab": false
+    },
+    {
+     "nome": "Saewung Kim",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 28,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Concentração de dióxido de carbono em ambiente de savana na Amazônia: estudo de caso",
+   "ano": 2020,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x53214",
+   "autores": [
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo Da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Vinicius Dos Santos Moreira",
+     "lab": false
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Santana",
+     "lab": false
+    },
+    {
+     "nome": "Joicy Da Silva Pinto",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Dinâmica do aporte e decomposição de serapilheira e influência das variáveis meteorológicas em um fragmento de Mata Atlântica (floresta ombrófila) em Alagoas, Brasil",
+   "ano": 2020,
+   "periodico": "Revista Brasileira de Gestão Ambiental e Sustentabilidade",
+   "doi": "10.21438/rbgas(2020)071729",
+   "autores": [
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "José Marcelo Lopes Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Carlos Alexandre Santos Querino",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Estimando a altura da camada limite atmosférica sobre diferentes superfícies da região amazônica",
+   "ano": 2020,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x46928",
+   "autores": [
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Cléo Quaresma Dias-Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo Da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Raphael Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Beatriz Freire Mota",
+     "lab": false
+    },
+    {
+     "nome": "Kewen Antônio Souza Vieira",
+     "lab": false
+    },
+    {
+     "nome": "Luis Paulo Aquino Silva de Santana",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "PTR-TOF-MS eddy covariance measurements of isoprene and monoterpene fluxes from an eastern Amazonian rainforest",
+   "ano": 2020,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-20-7179-2020",
+   "autores": [
+    {
+     "nome": "Chinmoy Sarkar",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Jeong-Hoo Park",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Eliane Alves",
+     "lab": false
+    },
+    {
+     "nome": "Sarah Batalha",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    },
+    {
+     "nome": "Saewung Kim",
+     "lab": false
+    },
+    {
+     "nome": "James Smith",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Oscar Vega",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 61,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Sazonalidade da Concentração de CO2 na camada limite atmosférica sobre o lago Curuá-Una, Santarém-Pará",
+   "ano": 2020,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x53218",
+   "autores": [
+    {
+     "nome": "Kewen Antônio Souza Vieira",
+     "lab": false
+    },
+    {
+     "nome": "Cíntia Silva de Almeida",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo Da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Joicy Da Silva Pinto",
+     "lab": false
+    },
+    {
+     "nome": "Marinete Da Silva Ferreira",
+     "lab": false
+    },
+    {
+     "nome": "Luis Paulo Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Beatriz Freire Mota",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Sensitivity test of the Hydrological Model of Large Basins (MGB-IPH) in scenarios of extreme changes in soil use and occupation, precipitation regime and mean air temperature",
+   "ano": 2020,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v13.1.p211-228",
+   "autores": [
+    {
+     "nome": "Daniel Alves Jati",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota Da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Raphael Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Nataly Cristiane Pereira Pinheiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Avaliação da Habilidade do Modelo WRF em Representar a Precipitação na Amazônia Usando Diferentes Escalas",
+   "ano": 2019,
+   "periodico": "Revista Brasileira de Meteorologia",
+   "doi": "10.1590/0102-77863340029",
+   "autores": [
+    {
+     "nome": "Jeanne Moreira de Sousa",
+     "lab": false
+    },
+    {
+     "nome": "Luiz Antonio Candido",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Rita Valéria Andreoli",
+     "lab": false
+    },
+    {
+     "nome": "Mary Toshie Kayano",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Ocimar Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Augusto Ferreira de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Everaldo Barreiros de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Samuel de Oliveira Vieira",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 4,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Chemical composition of ultrafine aerosol particles in central Amazonia during the wet season",
+   "ano": 2019,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-19-13053-2019",
+   "autores": [
+    {
+     "nome": "Hayley S. Glicker",
+     "lab": false
+    },
+    {
+     "nome": "Michael J. Lawler",
+     "lab": false
+    },
+    {
+     "nome": "John Ortega",
+     "lab": false
+    },
+    {
+     "nome": "Suzane S. de Sá",
+     "lab": false
+    },
+    {
+     "nome": "Scot T. Martin",
+     "lab": false
+    },
+    {
+     "nome": "Paulo Artaxo",
+     "lab": false
+    },
+    {
+     "nome": "Oscar Vega Bustillos",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Annmarie Carlton",
+     "lab": false
+    },
+    {
+     "nome": "James N. Smith",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 29,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Drag coefficient and modeling the vertical wind profile in forests",
+   "ano": 2019,
+   "periodico": "Holos",
+   "doi": "10.15628/holos.2019.7393",
+   "autores": [
+    {
+     "nome": "AURILENE BARROS dos SANTOS",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Air turbulence characteristics at multiple sites in and above the Amazon rainforest canopy",
+   "ano": 2018,
+   "periodico": "Agricultural and Forest Meteorology",
+   "doi": "10.1016/j.agrformet.2018.05.027",
+   "autores": [
+    {
+     "nome": "Raoni A. Santana",
+     "lab": false
+    },
+    {
+     "nome": "Cléo Q. Dias-Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Jose D. Fuentes",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Eliane Gomes Alves",
+     "lab": false
+    },
+    {
+     "nome": "Rosa Maria N. dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Antônio O. Manzi",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 42,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Aspectos micrometeorológicos da emissão de monoterpenos em uma floresta na Amazônia central",
+   "ano": 2018,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x30729",
+   "autores": [
+    {
+     "nome": "Sarah Batalha",
+     "lab": false
+    },
+    {
+     "nome": "Jeong-Hoo Park",
+     "lab": false
+    },
+    {
+     "nome": "Eliane Alves",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Jose Oscar Vega Bustillos",
+     "lab": false
+    },
+    {
+     "nome": "James Smith",
+     "lab": false
+    },
+    {
+     "nome": "Alex Guenther",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Avaliação do ciclo anual da Camada Limite Planetária na região Amazônica (Study of the annual cycle of the planetary boundary layer in the Amazon region)",
+   "ano": 2018,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v11.1.p057-069",
+   "autores": [
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Gilberto Fisch",
+     "lab": false
+    },
+    {
+     "nome": "Camilla Kassar Borges",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Increased nocturnal CO2 concentration during breeze circulation events in a tropical reservoir",
+   "ano": 2018,
+   "periodico": "Ambiente e Agua - An Interdisciplinary Journal of Applied Science",
+   "doi": "10.4136/ambi-agua.2186",
+   "autores": [
+    {
+     "nome": "Roseilson Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    },
+    {
+     "nome": "Ana Carla Gomes",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 7,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Leaf phenology as one important driver of seasonal changes in isoprene emissions in central Amazonia",
+   "ano": 2018,
+   "periodico": "Biogeosciences",
+   "doi": "10.5194/bg-15-4019-2018",
+   "autores": [
+    {
+     "nome": "Eliane G. Alves",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Andrew Turnipseed",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "José Oscar W. Vega Bustillos",
+     "lab": false
+    },
+    {
+     "nome": "Raoni A. Santana",
+     "lab": false
+    },
+    {
+     "nome": "Glauber G. Cirino",
+     "lab": false
+    },
+    {
+     "nome": "Julia V. Tavares",
+     "lab": false
+    },
+    {
+     "nome": "Aline P. Lopes",
+     "lab": false
+    },
+    {
+     "nome": "Bruce W. Nelson",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo A. de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Dasa Gu",
+     "lab": false
+    },
+    {
+     "nome": "Trissevgeni Stavrakou",
+     "lab": false
+    },
+    {
+     "nome": "David K. Adams",
+     "lab": false
+    },
+    {
+     "nome": "Jin Wu",
+     "lab": false
+    },
+    {
+     "nome": "Scott Saleska",
+     "lab": false
+    },
+    {
+     "nome": "Antonio O. Manzi",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 43,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Observations of Manaus urban plume evolution and interaction with biogenic emissions in GoAmazon 2014/5",
+   "ano": 2018,
+   "periodico": "Atmospheric Environment",
+   "doi": "10.1016/j.atmosenv.2018.08.031",
+   "autores": [
+    {
+     "nome": "Glauber Cirino",
+     "lab": false
+    },
+    {
+     "nome": "Joel Brito",
+     "lab": false
+    },
+    {
+     "nome": "Henrique M.J. Barbosa",
+     "lab": false
+    },
+    {
+     "nome": "Luciana V. Rizzo",
+     "lab": false
+    },
+    {
+     "nome": "Peter Tunved",
+     "lab": false
+    },
+    {
+     "nome": "Suzane S. de Sá",
+     "lab": false
+    },
+    {
+     "nome": "Jose L. Jimenez",
+     "lab": false
+    },
+    {
+     "nome": "Brett B. Palm",
+     "lab": false
+    },
+    {
+     "nome": "Samara Carbone",
+     "lab": false
+    },
+    {
+     "nome": "Jost V. Lavric",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo A.F. Souza",
+     "lab": false
+    },
+    {
+     "nome": "Stefan Wolff",
+     "lab": false
+    },
+    {
+     "nome": "David Walter",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Maria B.L. Oliveira",
+     "lab": false
+    },
+    {
+     "nome": "Scot T. Martin",
+     "lab": false
+    },
+    {
+     "nome": "Paulo Artaxo",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 43,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "A brief observation of the formation of coherent structures and turbulence over a rain forest area in central Amazônia: The atto-claire/iop - 1/2012 experiment",
+   "ano": 2017,
+   "periodico": "Brazilian Journal of Geophysics",
+   "doi": "10.22564/rbgf.v35i3.882",
+   "autores": [
+    {
+     "nome": "Newton Silva de Lima",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Maurício José Alves Bolzam",
+     "lab": false
+    },
+    {
+     "nome": "Alan dos Santos Ferreira",
+     "lab": false
+    },
+    {
+     "nome": "Matheus da Rocha Pietzsch",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 5,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Airborne observations reveal elevational gradient in tropical forest isoprene emissions",
+   "ano": 2017,
+   "periodico": "Nature Communications",
+   "doi": "10.1038/ncomms15541",
+   "autores": [
+    {
+     "nome": "Dasa Gu",
+     "lab": false
+    },
+    {
+     "nome": "Alex B. Guenther",
+     "lab": false
+    },
+    {
+     "nome": "John E. Shilling",
+     "lab": false
+    },
+    {
+     "nome": "Haofei Yu",
+     "lab": false
+    },
+    {
+     "nome": "Maoyi Huang",
+     "lab": false
+    },
+    {
+     "nome": "Chun Zhao",
+     "lab": false
+    },
+    {
+     "nome": "Qing Yang",
+     "lab": false
+    },
+    {
+     "nome": "Scot T. Martin",
+     "lab": false
+    },
+    {
+     "nome": "Paulo Artaxo",
+     "lab": false
+    },
+    {
+     "nome": "Saewung Kim",
+     "lab": false
+    },
+    {
+     "nome": "Roger Seco",
+     "lab": false
+    },
+    {
+     "nome": "Trissevgeni Stavrakou",
+     "lab": false
+    },
+    {
+     "nome": "Karla M. Longo",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Rodrigo Augusto Ferreira de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Oscar Vega",
+     "lab": false
+    },
+    {
+     "nome": "Ying Liu",
+     "lab": false
+    },
+    {
+     "nome": "Manish Shrivastava",
+     "lab": false
+    },
+    {
+     "nome": "Eliane G. Alves",
+     "lab": false
+    },
+    {
+     "nome": "Fernando C. Santos",
+     "lab": false
+    },
+    {
+     "nome": "Guoyong Leng",
+     "lab": false
+    },
+    {
+     "nome": "Zhiyuan Hu",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 100,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Concentração e fluxo de CO2 sobre o reservatório hidrelétrico de Balbina (AM)",
+   "ano": 2017,
+   "periodico": "Engenharia Sanitaria e Ambiental",
+   "doi": "10.1590/s1413-41522017143032",
+   "autores": [
+    {
+     "nome": "Roseilson Souza Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Santana",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Scott Miller",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Souza",
+     "lab": false
+    },
+    {
+     "nome": "Rardiles Branches",
+     "lab": false
+    },
+    {
+     "nome": "Newton Lima",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 4,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Estudos geo-hidrológicos da bacia do rio Curuá-Una, Santarém, Pará: Aplicação do modelo hidrológico de grandes bacias (MGB-IPH) (Geohydrological studies of the Curuá-Una river basin, Santarém, Pará: Application of the hydrological model of large ...)",
+   "ano": 2017,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v10.4.p1296-1311",
+   "autores": [
+    {
+     "nome": "Daniel Alves Jati",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota Da Silva",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 3,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Observing and Modeling the Vertical Wind Profile at Multiple Sites in and above the Amazon Rain Forest Canopy",
+   "ano": 2017,
+   "periodico": "Advances in Meteorology",
+   "doi": "10.1155/2017/5436157",
+   "autores": [
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Cléo Quaresma Dias-Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 26,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Características médias do vento acima e abaixo do dossel da floresta durante o GOAMAZON em um sítio experimental na Amazônia",
+   "ano": 2016,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x20131",
+   "autores": [
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Rosa Maria Nascimento dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    },
+    {
+     "nome": "Giorgio Arlan da Silva Picanço",
+     "lab": false
+    },
+    {
+     "nome": "Sarah Suely Alves Batalha",
+     "lab": false
+    },
+    {
+     "nome": "Ana Carla dos Santos Gomes",
+     "lab": false
+    },
+    {
+     "nome": "Gabriel Brito Costa",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Da Silva",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Desenvolvimento de uma sonda atmosférica sem fio para estudos ambientais de baixo custo",
+   "ano": 2016,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x20112",
+   "autores": [
+    {
+     "nome": "Giorgio Arlan da Silva Picanço",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Hydroclimatic variables associated with El Nino and La Nina events at the Curuá-Una hydroelectric reservoir, Central Amazonia",
+   "ano": 2016,
+   "periodico": "Acta Amazonica",
+   "doi": "10.1590/1809-4392201600083",
+   "autores": [
+    {
+     "nome": "Roseilson Souza do VALE",
+     "lab": false
+    },
+    {
+     "nome": "Ana Carla dos Santos GOMES",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de SANTANA",
+     "lab": false
+    },
+    {
+     "nome": "Júlio TÓTA",
+     "lab": true
+    },
+    {
+     "nome": "Scott Dennis MILLER",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Augusto Ferreira de SOUSA",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 8,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Linking Meteorology, Turbulence, and Air Chemistry in the Amazon Rain Forest",
+   "ano": 2016,
+   "periodico": "Bulletin of the American Meteorological Society",
+   "doi": "10.1175/bams-d-15-00152.1",
+   "autores": [
+    {
+     "nome": "Jose D. Fuentes",
+     "lab": false
+    },
+    {
+     "nome": "Marcelo Chamecki",
+     "lab": false
+    },
+    {
+     "nome": "Rosa Maria Nascimento dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Celso Von Randow",
+     "lab": false
+    },
+    {
+     "nome": "Paul C. Stoy",
+     "lab": false
+    },
+    {
+     "nome": "Gabriel Katul",
+     "lab": false
+    },
+    {
+     "nome": "David Fitzjarrald",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Tobias Gerken",
+     "lab": false
+    },
+    {
+     "nome": "Amy Trowbridge",
+     "lab": false
+    },
+    {
+     "nome": "Livia Souza Freire",
+     "lab": false
+    },
+    {
+     "nome": "Jesus Ruiz-Plancarte",
+     "lab": false
+    },
+    {
+     "nome": "Jair Max Furtunato Maia",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Nelson Dias",
+     "lab": false
+    },
+    {
+     "nome": "Gilberto Fisch",
+     "lab": false
+    },
+    {
+     "nome": "Courtney Schumacher",
+     "lab": false
+    },
+    {
+     "nome": "Otavio Acevedo",
+     "lab": false
+    },
+    {
+     "nome": "Juliane Rezende Mercer",
+     "lab": false
+    },
+    {
+     "nome": "Ana Maria Yañez-Serrano",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 85,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Medições por covariância de vórtices turbulentos dos fluxos de calor latente, sensível, momentum e CO2 sobre o reservatório da usina hidrelétrica de curuá-una – PA",
+   "ano": 2016,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x20077",
+   "autores": [
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta da Silva",
+     "lab": true
+    },
+    {
+     "nome": "Scott Dennis Miller",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Augusto Ferreira de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Giórgio Arlan da Silva Picanço",
+     "lab": false
+    },
+    {
+     "nome": "Ana Carla dos Santos Gomes",
+     "lab": false
+    },
+    {
+     "nome": "Raphael Pablo Tapajós",
+     "lab": false
+    },
+    {
+     "nome": "Mário Rodrigues Pedreiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Seasonal variation of energy fluxes in caatinga areas preserved and degraded in Northeast Brazil",
+   "ano": 2016,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.5935/1984-2295.20160089",
+   "autores": [
+    {
+     "nome": "Camilla Kassar Borges",
+     "lab": false
+    },
+    {
+     "nome": "Carlos Antônio Costa dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Lindenberg Lucena da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Seasonality of isoprenoid emissions from a primary rainforest in central Amazonia",
+   "ano": 2016,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-16-3903-2016",
+   "autores": [
+    {
+     "nome": "Eliane G. Alves",
+     "lab": false
+    },
+    {
+     "nome": "Kolby Jardine",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Angela Jardine",
+     "lab": false
+    },
+    {
+     "nome": "Ana Maria Yãnez-Serrano",
+     "lab": false
+    },
+    {
+     "nome": "Thomas Karl",
+     "lab": false
+    },
+    {
+     "nome": "Julia Tavares",
+     "lab": false
+    },
+    {
+     "nome": "Bruce Nelson",
+     "lab": false
+    },
+    {
+     "nome": "Dasa Gu",
+     "lab": false
+    },
+    {
+     "nome": "Trissevgeni Stavrakou",
+     "lab": false
+    },
+    {
+     "nome": "Scot Martin",
+     "lab": false
+    },
+    {
+     "nome": "Paulo Artaxo",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Alex Guenther",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 77,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "An empirical‐analytical model of the vertical wind speed profile above and within an Amazon forest site",
+   "ano": 2015,
+   "periodico": "Meteorological Applications",
+   "doi": "10.1002/met.1543",
+   "autores": [
+    {
+     "nome": "Cledenilson Mendonça de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Cléo Quaresma Dias‐Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Leonardo Deane de Abreu Sá",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 17,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Análise do perfil vertical de CO2 em uma área de floresta na Amazônia central",
+   "ano": 2015,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x16210",
+   "autores": [
+    {
+     "nome": "Mylena Vieira Silva",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "David Fitzjarrald",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Análise estatística das tendências de elevação nas séries de temperatura média máxima na Amazônia central: Estudo de caso para a região do oeste do Pará. (statistical analysis of the trends of elevation in maximun average temperature in central Amazonia: Case study for region in west of Pará state)",
+   "ano": 2015,
+   "periodico": "Revista Brasileira de Climatologia",
+   "doi": "10.5380/abclima.v17i0.42898",
+   "autores": [
+    {
+     "nome": "Ana Carla Dos Santos Gomes",
+     "lab": false
+    },
+    {
+     "nome": "Micejane Da Silva Costa",
+     "lab": false
+    },
+    {
+     "nome": "Maytê Duarte Leal Coutinho",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Marconio Silva dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta da Silva",
+     "lab": true
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 1,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Downward transport of ozone rich air and implications for atmospheric chemistry in the Amazon rainforest",
+   "ano": 2015,
+   "periodico": "Atmospheric Environment",
+   "doi": "10.1016/j.atmosenv.2015.11.014",
+   "autores": [
+    {
+     "nome": "Tobias Gerken",
+     "lab": false
+    },
+    {
+     "nome": "Dandan Wei",
+     "lab": false
+    },
+    {
+     "nome": "Randy J. Chase",
+     "lab": false
+    },
+    {
+     "nome": "Jose D. Fuentes",
+     "lab": false
+    },
+    {
+     "nome": "Courtney Schumacher",
+     "lab": false
+    },
+    {
+     "nome": "Luiz A.T. Machado",
+     "lab": false
+    },
+    {
+     "nome": "Rita V. Andreoli",
+     "lab": false
+    },
+    {
+     "nome": "Marcelo Chamecki",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo A. Ferreira de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Livia S. Freire",
+     "lab": false
+    },
+    {
+     "nome": "Angela B. Jardine",
+     "lab": false
+    },
+    {
+     "nome": "Antonio O. Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Rosa M. Nascimento dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Celso von Randow",
+     "lab": false
+    },
+    {
+     "nome": "Patrícia dos Santos Costa",
+     "lab": false
+    },
+    {
+     "nome": "Paul C. Stoy",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Amy M. Trowbridge",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 100,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Estabilidade e estrutura da turbulência sob a influência de jatos de baixos níveis noturnos no sudoeste da Amazônia",
+   "ano": 2015,
+   "periodico": "Revista Brasileira de Meteorologia",
+   "doi": "10.1590/0102-778620140132",
+   "autores": [
+    {
+     "nome": "Raoni Aquino Silva da Santana",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Rosa Maria Nascimento dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Souza do Vale",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 7,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Litter influence soil heat flux behavior in an Atlantic Forest fragment of Alagoas",
+   "ano": 2015,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.5935/1984-2295.20150069",
+   "autores": [
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Vicente de Paulo Rodrigues da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "The Amazon Tall Tower Observatory (ATTO): overview of pilot measurements on ecosystem ecology, meteorology, trace gases, and aerosols",
+   "ano": 2015,
+   "periodico": "Atmospheric chemistry and physics",
+   "doi": "10.5194/acp-15-10723-2015",
+   "autores": [
+    {
+     "nome": "M. O. Andreae",
+     "lab": false
+    },
+    {
+     "nome": "O. C. Acevedo",
+     "lab": false
+    },
+    {
+     "nome": "A. Araùjo",
+     "lab": false
+    },
+    {
+     "nome": "P. Artaxo",
+     "lab": false
+    },
+    {
+     "nome": "C. G. G. Barbosa",
+     "lab": false
+    },
+    {
+     "nome": "H. M. J. Barbosa",
+     "lab": false
+    },
+    {
+     "nome": "J. Brito",
+     "lab": false
+    },
+    {
+     "nome": "S. Carbone",
+     "lab": false
+    },
+    {
+     "nome": "X. Chi",
+     "lab": false
+    },
+    {
+     "nome": "B. B. L. Cintra",
+     "lab": false
+    },
+    {
+     "nome": "N. F. da Silva",
+     "lab": false
+    },
+    {
+     "nome": "N. L. Dias",
+     "lab": false
+    },
+    {
+     "nome": "C. Q. Dias-Júnior",
+     "lab": false
+    },
+    {
+     "nome": "F. Ditas",
+     "lab": false
+    },
+    {
+     "nome": "R. Ditz",
+     "lab": false
+    },
+    {
+     "nome": "A. F. L. Godoi",
+     "lab": false
+    },
+    {
+     "nome": "R. H. M. Godoi",
+     "lab": false
+    },
+    {
+     "nome": "M. Heimann",
+     "lab": false
+    },
+    {
+     "nome": "T. Hoffmann",
+     "lab": false
+    },
+    {
+     "nome": "J. Kesselmeier",
+     "lab": false
+    },
+    {
+     "nome": "T. Könemann",
+     "lab": false
+    },
+    {
+     "nome": "M. L. Krüger",
+     "lab": false
+    },
+    {
+     "nome": "J. V. Lavric",
+     "lab": false
+    },
+    {
+     "nome": "A. O. Manzi",
+     "lab": false
+    },
+    {
+     "nome": "A. P. Lopes",
+     "lab": false
+    },
+    {
+     "nome": "D. L. Martins",
+     "lab": false
+    },
+    {
+     "nome": "E. F. Mikhailov",
+     "lab": false
+    },
+    {
+     "nome": "D. Moran-Zuloaga",
+     "lab": false
+    },
+    {
+     "nome": "B. W. Nelson",
+     "lab": false
+    },
+    {
+     "nome": "A. C. Nölscher",
+     "lab": false
+    },
+    {
+     "nome": "D. Santos Nogueira",
+     "lab": false
+    },
+    {
+     "nome": "M. T. F. Piedade",
+     "lab": false
+    },
+    {
+     "nome": "C. Pöhlker",
+     "lab": false
+    },
+    {
+     "nome": "U. Pöschl",
+     "lab": false
+    },
+    {
+     "nome": "C. A. Quesada",
+     "lab": false
+    },
+    {
+     "nome": "L. V. Rizzo",
+     "lab": false
+    },
+    {
+     "nome": "C.-U. Ro",
+     "lab": false
+    },
+    {
+     "nome": "N. Ruckteschler",
+     "lab": false
+    },
+    {
+     "nome": "L. D. A. Sá",
+     "lab": false
+    },
+    {
+     "nome": "M. de Oliveira Sá",
+     "lab": false
+    },
+    {
+     "nome": "C. B. Sales",
+     "lab": false
+    },
+    {
+     "nome": "R. M. N. dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "J. Saturno",
+     "lab": false
+    },
+    {
+     "nome": "J. Schöngart",
+     "lab": false
+    },
+    {
+     "nome": "M. Sörgel",
+     "lab": false
+    },
+    {
+     "nome": "C. M. de Souza",
+     "lab": false
+    },
+    {
+     "nome": "R. A. F. de Souza",
+     "lab": false
+    },
+    {
+     "nome": "H. Su",
+     "lab": false
+    },
+    {
+     "nome": "N. Targhetta",
+     "lab": false
+    },
+    {
+     "nome": "J. Tóta",
+     "lab": true
+    },
+    {
+     "nome": "I. Trebs",
+     "lab": false
+    },
+    {
+     "nome": "S. Trumbore",
+     "lab": false
+    },
+    {
+     "nome": "A. van Eijck",
+     "lab": false
+    },
+    {
+     "nome": "D. Walter",
+     "lab": false
+    },
+    {
+     "nome": "Z. Wang",
+     "lab": false
+    },
+    {
+     "nome": "B. Weber",
+     "lab": false
+    },
+    {
+     "nome": "J. Williams",
+     "lab": false
+    },
+    {
+     "nome": "J. Winderlich",
+     "lab": false
+    },
+    {
+     "nome": "F. Wittmann",
+     "lab": false
+    },
+    {
+     "nome": "S. Wolff",
+     "lab": false
+    },
+    {
+     "nome": "A. M. Yáñez-Serrano",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 409,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "A Transformada em Ondeletas Aplicada a Aéries de Ozônio Troposférico e Monóxido de Carbono sobre regiões de Pastagem e Floresta a partir de Sondagens AQUA (The Wavelet Transform is Applied to a Series of Tropospheric Ozone and Carbon Monoxide on ...)",
+   "ano": 2014,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v7.2.p234-242",
+   "autores": [
+    {
+     "nome": "Jurandir Moura Dutra",
+     "lab": false
+    },
+    {
+     "nome": "Rodrigo Augusto Ferreira de Souza",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tóta da Silva",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Radiação Fotossinteticamente Ativa incidente e refletida acima e abaixo do dossel de floresta de Mata Atlântica em Coruripe, Alagoas",
+   "ano": 2014,
+   "periodico": "Revista Brasileira de Meteorologia",
+   "doi": "10.1590/s0102-77862014000100007",
+   "autores": [
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Rosiberto Salustiano da Silva Junior",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 9,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Variabilidade da temperatura do solo em função da liteira em fragmento remanescente de mata atlântica",
+   "ano": 2014,
+   "periodico": "Revista Brasileira de Engenharia Agrícola e Ambiental",
+   "doi": "10.1590/s1415-43662014000100013",
+   "autores": [
+    {
+     "nome": "Rayonil G. Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Marcos A. L. Moura",
+     "lab": false
+    },
+    {
+     "nome": "Vicente de P. R. da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Rosiberto S. Silva Junior",
+     "lab": false
+    },
+    {
+     "nome": "Antonio M. D. de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Aurilene B. dos Santos",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 19,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Característica aerodinâmica da turbulência sobre e dentro do dossel de uma floresta de terra firme na Amazônia central",
+   "ano": 2013,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x11673",
+   "autores": [
+    {
+     "nome": "Newton Silva de Lima",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Maurício José Alves Bolzan",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Dinâmica do Escoamento de Ar Acima e Dentro de uma Floresta Tropical Densa sobre Terreno Complexo na Amazônia (Dynamics of Airflow Above and Within a Tropical Rainforest Canopy Dense in the Complex Terrain on Amazonia)",
+   "ano": 2013,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v6.2.p309-319",
+   "autores": [
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tóta",
+     "lab": true
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "David Roy Fitzjarrald",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Aquino Silva de Santana",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota",
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Estudo da Temperatura do Solo em Dois Biomas Florestais nos Períodos, Chuvoso e Seco (Study of Soil Temperature in Two Forest Biomes in the Periods, Rainy and Dry)",
+   "ano": 2013,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v6i4.233092",
+   "autores": [
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Vicente de Paulo Rodrigues da Silva",
+     "lab": false
+    },
+    {
+     "nome": "Rosiberto Salustiano da Silva Júnior",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 3,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Fluxo de Calor do Solo e Saldo de Radiação Dentro de uma Área de Mata Atlântica em Comparação com uma Área de Cana-de-Açúcar (Heat Flux and in the Soil and Radiation Balance Inside in Area of Atlantic Forest in Comparison with an Area of Sugarcane)",
+   "ano": 2013,
+   "periodico": "Revista Brasileira de Geografia Física",
+   "doi": "10.26848/rbgf.v6.3.p555-565",
+   "autores": [
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Roberto Fernando da Fonseca Lyra",
+     "lab": false
+    },
+    {
+     "nome": "Antônio Marcos Delfino de Andrade",
+     "lab": true
+    },
+    {
+     "nome": "Aurilene Barros dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Ruany Gomes Xavier Maia",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 2,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Jatos de baixos níveis no sudoeste da Amazônia",
+   "ano": 2013,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x11684",
+   "autores": [
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Rosa Maria dos Santos",
+     "lab": false
+    },
+    {
+     "nome": "Roseilson Do Vale",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Medições in situ da concentração de CO2 em um reservatório tropical usando LI-7500A e uma boia meteorológica",
+   "ano": 2013,
+   "periodico": "Ciência e Natura",
+   "doi": "10.5902/2179460x11700",
+   "autores": [
+    {
+     "nome": "Roseilson Do Vale",
+     "lab": false
+    },
+    {
+     "nome": "Raoni Santana",
+     "lab": false
+    },
+    {
+     "nome": "Newton Lima",
+     "lab": false
+    },
+    {
+     "nome": "Júlio Tota",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "Variação da temperatura do solo em um fragmento de mata atlântica em coruripe-al - um estudo de caso",
+   "ano": 2013,
+   "periodico": "Caminhos de Geografia",
+   "doi": "10.14393/rcg144621739",
+   "autores": [
+    {
+     "nome": "Rayonil Gomes Carneiro",
+     "lab": false
+    },
+    {
+     "nome": "Marcos Antonio Lima Moura",
+     "lab": false
+    },
+    {
+     "nome": "Antonio Marcos Delfino De Andrade",
+     "lab": true
+    }
+   ],
+   "professores": [
+    "Antonio Marcos Andrade"
+   ],
+   "citacoes": 0,
+   "acesso_aberto": true
+  },
+  {
+   "titulo": "What drives the seasonality of photosynthesis across the Amazon basin? A cross-site analysis of eddy flux tower measurements from the Brasil flux network",
+   "ano": 2013,
+   "periodico": "Agricultural and Forest Meteorology",
+   "doi": "10.1016/j.agrformet.2013.04.031",
+   "autores": [
+    {
+     "nome": "Natalia Restrepo-Coupe",
+     "lab": false
+    },
+    {
+     "nome": "Humberto R. da Rocha",
+     "lab": false
+    },
+    {
+     "nome": "Lucy R. Hutyra",
+     "lab": false
+    },
+    {
+     "nome": "Alessandro C. da Araujo",
+     "lab": false
+    },
+    {
+     "nome": "Laura S. Borma",
+     "lab": false
+    },
+    {
+     "nome": "Bradley Christoffersen",
+     "lab": false
+    },
+    {
+     "nome": "Osvaldo M.R. Cabral",
+     "lab": false
+    },
+    {
+     "nome": "Plinio B. de Camargo",
+     "lab": false
+    },
+    {
+     "nome": "Fernando L. Cardoso",
+     "lab": false
+    },
+    {
+     "nome": "Antonio C. Lola da Costa",
+     "lab": false
+    },
+    {
+     "nome": "David R. Fitzjarrald",
+     "lab": false
+    },
+    {
+     "nome": "Michael L. Goulden",
+     "lab": false
+    },
+    {
+     "nome": "Bart Kruijt",
+     "lab": false
+    },
+    {
+     "nome": "Jair M.F. Maia",
+     "lab": false
+    },
+    {
+     "nome": "Yadvinder S. Malhi",
+     "lab": false
+    },
+    {
+     "nome": "Antonio O. Manzi",
+     "lab": false
+    },
+    {
+     "nome": "Scott D. Miller",
+     "lab": false
+    },
+    {
+     "nome": "Antonio D. Nobre",
+     "lab": false
+    },
+    {
+     "nome": "Celso von Randow",
+     "lab": false
+    },
+    {
+     "nome": "Leonardo D. Abreu Sá",
+     "lab": false
+    },
+    {
+     "nome": "Ricardo K. Sakai",
+     "lab": false
+    },
+    {
+     "nome": "Julio Tota",
+     "lab": true
+    },
+    {
+     "nome": "Steven C. Wofsy",
+     "lab": false
+    },
+    {
+     "nome": "Fabricio B. Zanchi",
+     "lab": false
+    },
+    {
+     "nome": "Scott R. Saleska",
+     "lab": false
+    }
+   ],
+   "professores": [
+    "Julio Tota"
+   ],
+   "citacoes": 376,
+   "acesso_aberto": true
+  }
+ ]
+}

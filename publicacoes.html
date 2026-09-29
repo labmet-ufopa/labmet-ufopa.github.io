@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contato | LabMet UFOPA</title>
-  <meta name="description" content="Endereço e contato do Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa, em Santarém.">
-  <meta property="og:title" content="Contato | LabMet UFOPA">
-  <meta property="og:description" content="Endereço e contato do Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa, em Santarém.">
+  <title>Publicações | LabMet UFOPA</title>
+  <meta name="description" content="Artigos publicados em periódicos pelos professores do Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa.">
+  <meta property="og:title" content="Publicações | LabMet UFOPA">
+  <meta property="og:description" content="Artigos publicados em periódicos pelos professores do Laboratório de Instrumentação Meteorológica Multidisciplinar da Ufopa.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://labmet-ufopa.github.io/contato.html">
+  <meta property="og:url" content="https://labmet-ufopa.github.io/publicacoes.html">
   <meta property="og:image" content="https://labmet-ufopa.github.io/assets/img/fotos/twin-otter-hangar.jpg">
   <meta property="og:locale" content="pt_BR">
   <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
@@ -42,42 +42,37 @@
           <li><a href="carbonara.html">CarbonARA</a></li>
           <li><a href="radiossondas.html">Radiossondas</a></li>
           <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="publicacoes.html">Publicações</a></li>
+          <li><a href="publicacoes.html" aria-current="page">Publicações</a></li>
           <li><a href="equipe.html">Equipe</a></li>
-          <li><a href="contato.html" aria-current="page">Contato</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
+    <section class="hero hero-interno">
+      <img src="assets/img/fotos/esa-torre-instrumentos.jpg" alt="Torre metálica com instrumentos vista de cima, cercada pelas copas das árvores">
+      <div class="container">
+        <p class="migalha"><a href="index.html">Início</a> / Publicações</p>
+        <h1>Publicações</h1>
+        <p class="hero-texto">Artigos em periódicos com a participação dos professores do laboratório, de 2013 em diante.</p>
+      </div>
+      <p class="credito">Foto: ESA, projeto CarbonARA</p>
+    </section>
+
     <section class="secao">
       <div class="container">
-        <p class="sobretitulo">Fale com o laboratório</p>
-        <h1>Contato</h1>
-        <p class="abertura" style="margin-bottom:2.5rem">Estamos na Unidade Tapajós da Ufopa, em Santarém.</p>
-        <div class="cartoes-contato">
-          <section>
-            <h2>Laboratório</h2>
-            <p>Núcleo Tecnológico de Laboratórios (NTL), bloco 05, sala 205<br>
-            Universidade Federal do Oeste do Pará, Unidade Tapajós<br>
-            Rua Raimundo Fona, em frente ao Restaurante Universitário<br>
-            Santarém, Pará</p>
-          </section>
-          <section>
-            <h2>Curso de Ciências Atmosféricas</h2>
-            <p>E-mail: ciencias.atmosfericas@ufopa.edu.br<br>
-            Telefone: (93) 99242-5201</p>
-          </section>
-          <section>
-            <h2>Fazenda Experimental</h2>
-            <p>Rodovia Santarém–Curuá-Una (PA-370), km 37, Santarém, Pará. As visitas aos locais de medição precisam ser combinadas com antecedência.</p>
-          </section>
-          <section>
-            <h2>Códigos e dados</h2>
-            <p>Os programas desenvolvidos pelo laboratório são publicados em <a href="https://github.com/labmet-ufopa">github.com/labmet-ufopa</a>.</p>
-          </section>
+        <div class="filtros">
+          <div class="filtros-botoes" id="filtros-professor" role="group" aria-label="Filtrar por professor"></div>
+          <label class="pular" for="busca">Buscar nas publicações</label>
+          <input class="busca" id="busca" type="search" placeholder="Buscar por título, autor ou periódico" autocomplete="off">
         </div>
+        <p class="contagem" id="contagem" aria-live="polite">Carregando a lista.</p>
+        <div id="publicacoes"></div>
+        <noscript><p>A lista precisa de JavaScript para ser exibida. Os dados estão em <a href="data/publicacoes.json">data/publicacoes.json</a>.</p></noscript>
+
+        <p class="texto" style="margin-top:3rem;font-size:0.92rem;color:var(--texto-suave)">Lista gerada a partir da base <a href="https://openalex.org/">OpenAlex</a> em <span id="atualizado">data não informada</span>. Os nomes em destaque são dos professores do laboratório. A base é automática e pode ter lacunas. Se faltar algum artigo, avise o laboratório.</p>
       </div>
     </section>
   </main>
@@ -105,5 +100,6 @@
       <div class="container">Universidade Federal do Oeste do Pará. As fotos têm o crédito indicado em cada página.</div>
     </div>
   </footer>
+  <script src="assets/js/publicacoes.js" defer></script>
 </body>
 </html>
