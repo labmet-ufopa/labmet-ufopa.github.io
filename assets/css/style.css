@@ -47,18 +47,14 @@ a:focus-visible, .botao:focus-visible { outline: 3px solid #f2bd3a; outline-offs
 .pular:focus { left: 0; }
 
 /* Barra da universidade, no padrão do portal da Ufopa */
-.barra-ufopa { background: var(--azul); color: #d6e2c4; font-size: 0.85rem; }
-.barra-ufopa .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.4rem 1.5rem; padding-top: 0.55rem; padding-bottom: 0.55rem; }
+.barra-ufopa { background: var(--azul); color: #d6e2c4; font-size: 0.82rem; border-bottom: 3px solid var(--verde-ufopa); }
+.barra-ufopa .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.3rem 1.5rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
 .barra-ufopa a { color: inherit; text-decoration: none; }
 .barra-ufopa a:hover { color: #fff; }
-.ufopa-marca { display: flex; align-items: center; gap: 0.75rem; }
-.ufopa-marca img { width: 2.75rem; height: 2.75rem; flex: none; }
-.ufopa-marca span { color: #fff; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.1em; line-height: 1.2; }
+.ufopa-marca { display: flex; align-items: center; gap: 0.6rem; }
+.ufopa-marca img { width: 1.9rem; height: 1.9rem; flex: none; }
+.ufopa-marca span { color: #fff; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; line-height: 1.2; }
 .ufopa-instituto { font-weight: 600; }
-.faixa-ufopa { display: grid; grid-template-columns: 8% 8% 1fr; height: 4px; }
-.faixa-ufopa span:nth-child(1) { background: var(--palha-ufopa); }
-.faixa-ufopa span:nth-child(2) { background: var(--oliva-ufopa); }
-.faixa-ufopa span:nth-child(3) { background: var(--verde-ufopa); }
 
 /* Cabeçalho */
 .cabecalho { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--linha); }
@@ -291,6 +287,6 @@ blockquote footer { font-size: 0.9rem; color: var(--texto-suave); margin-top: 0.
   .menu a { padding: 0.4rem 0.65rem; font-size: 0.92rem; }
 }
 @media (max-width: 600px) {
-  .ufopa-marca span { font-size: 0.82rem; letter-spacing: 0.06em; }
+  .ufopa-marca span { font-size: 0.74rem; letter-spacing: 0.04em; }
   .ufopa-instituto { display: none; }
 }
