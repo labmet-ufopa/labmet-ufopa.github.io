@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" role="img" aria-labelledby="fig-t fig-d">
-          <style>text{font-family:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;font-size:14px;fill:#1d252c}.eixo{fill:#5a6772;font-size:13px}</style><rect width="700" height="360" fill="#fff"/><title id="fig-t">Trajetória de uma radiossonda</title>
+          <style>text{font-family:"Fira Sans","Helvetica Neue",Arial,sans-serif;font-size:14px;fill:#1d252c}.eixo{fill:#5a6772;font-size:13px}</style><rect width="700" height="360" fill="#fff"/><title id="fig-t">Trajetória de uma radiossonda</title>
           <desc id="fig-d">A sonda sobe a partir do ponto de lançamento enquanto é levada pelo vento, o balão estoura no ponto mais alto e a sonda desce até o ponto de queda, distante do lançamento. Uma estação receptora no solo recebe o sinal durante todo o percurso.</desc>
           <line x1="70" y1="300" x2="670" y2="300" stroke="#1d252c" stroke-width="1.5"/>
           <line x1="70" y1="300" x2="70" y2="30" stroke="#1d252c" stroke-width="1.5"/>
